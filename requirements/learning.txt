@@ -1,0 +1,74 @@
+# Local Linux/CUDA 13 environment used for the Disco103 Catch check.
+# The upstream source revision is deliberately pinned; its published package
+# otherwise leaves every dependency unconstrained.
+disco_rl @ git+https://github.com/google-deepmind/disco_rl.git@9059a29f7121d60948f25ef165e08e050e9399c8
+absl-py==2.5.0
+annotated-types==0.8.0
+attrs==26.1.0
+chex==0.1.92
+cloudpickle==3.1.2
+contourpy==1.4.0
+cycler==0.12.1
+decorator==5.3.1
+distrax==0.1.9
+dm-env==1.6
+dm-haiku==0.0.17
+dm-tree==0.1.10
+fonttools==4.65.0
+gast==0.7.0
+immutabledict==4.3.1
+jax==0.11.1
+jax-cuda13-pjrt==0.11.1
+jax-cuda13-plugin==0.11.1
+jaxlib==0.11.1
+jmp==0.0.4
+kiwisolver==1.5.1
+matplotlib==3.11.2
+ml_collections==1.1.0
+ml_dtypes==0.6.0
+numpy==2.5.3
+nvidia-cublas==13.8.0.4
+nvidia-cuda-cccl==13.3.4.3.1
+nvidia-cuda-crt==13.4.92
+nvidia-cuda-cupti==13.4.92
+nvidia-cuda-nvcc==13.4.92
+nvidia-cuda-nvrtc==13.4.92
+nvidia-cuda-runtime==13.4.92
+nvidia-cudnn-cu13==9.26.0.51
+nvidia-cufft==12.4.0.43
+nvidia-cusolver==12.3.4.7
+nvidia-cusparse==12.8.6.72
+nvidia-nccl-cu13==2.31.2
+nvidia-nvjitlink==13.4.92
+nvidia-nvshmem-cu13==3.7.2
+nvidia-nvvm==13.4.92
+opt_einsum==3.4.0
+optax==0.2.8
+packaging==26.3
+pandas==3.0.5
+pillow==12.3.0
+pydantic==2.13.5
+pydantic_core==2.46.5
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+rfc8785==0.1.4
+rlax==0.1.9
+scipy==1.18.1
+seaborn==0.13.2
+six==1.17.0
+tabulate==0.10.0
+tfp-nightly==0.26.0.dev20260917
+toolz==1.1.0
+tqdm==4.70.1
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+wrapt==2.4.1
+
+# Additive benchmark dependencies; do not upgrade the pinned numerical runtime.
+# Install with --no-deps: its numpy/cloudpickle/typing-extensions already exist.
+gymnasium==1.2.3
+ale-py==0.11.2
+Box2D==2.3.10
+pygame==2.6.1
+Farama-Notifications==0.0.6

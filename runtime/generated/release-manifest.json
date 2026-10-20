@@ -1,0 +1,346 @@
+{
+  "files": [
+    {
+      "byte_length": 13417,
+      "relative_path": "scripts/audit_frozen_rule.py",
+      "sha256": "47415c1324a9da9cdb156148db382426ab16a86d6e2d5d239099cce2fc830d80"
+    },
+    {
+      "byte_length": 5754,
+      "relative_path": "scripts/run_calibration.py",
+      "sha256": "2d070be86cdc2e8613551818092bf868daea4a0df1f03e7146ec8b1066f08846"
+    },
+    {
+      "byte_length": 573,
+      "relative_path": "src/gremlin_rl/__init__.py",
+      "sha256": "e21fa9f44d6892ad6eccc5371c7d0ac8d0946da2f20fab718b80071a1829ab44"
+    },
+    {
+      "byte_length": 447,
+      "relative_path": "src/gremlin_rl/artifacts/__init__.py",
+      "sha256": "b8b0ffc364b3ad4059d13d2c061ac28b39123691b1463122eda095e4b6fef07d"
+    },
+    {
+      "byte_length": 16222,
+      "relative_path": "src/gremlin_rl/artifacts/discovery_run.py",
+      "sha256": "88f806d48900dd333488460fd0c24ad0dc9b469a979394ee8c504132495dc7a2"
+    },
+    {
+      "byte_length": 3105,
+      "relative_path": "src/gremlin_rl/artifacts/identity.py",
+      "sha256": "ae632664f38523d5688fd9eca74b15f6e137fa81ccaee9221e9a1168c8fbe957"
+    },
+    {
+      "byte_length": 11235,
+      "relative_path": "src/gremlin_rl/artifacts/preview_bank.py",
+      "sha256": "138c8c4c7d72fa82272344b9c4b698d3c8e8a810322793866f4e7d99f8f95eeb"
+    },
+    {
+      "byte_length": 20687,
+      "relative_path": "src/gremlin_rl/artifacts/preview_pool.py",
+      "sha256": "a12c5dba05115b6d65d4bbbd26ce4054f7d6fb07554f0a31aa0a45378f75acc3"
+    },
+    {
+      "byte_length": 10302,
+      "relative_path": "src/gremlin_rl/artifacts/records.py",
+      "sha256": "b82c1ae5937079c9a0b36f28566f575090d358a66b26a35a8fff73be3774399f"
+    },
+    {
+      "byte_length": 14903,
+      "relative_path": "src/gremlin_rl/artifacts/schemas.py",
+      "sha256": "8e9a0cfb469600a47146bfe8928940d3bc4f011124dbb85e9dcfc709484d84ce"
+    },
+    {
+      "byte_length": 582,
+      "relative_path": "src/gremlin_rl/constants.py",
+      "sha256": "2f7f8a830d29587eaa9742beeca98f042f073ffcd996411ca5821d6c233eab31"
+    },
+    {
+      "byte_length": 1279,
+      "relative_path": "src/gremlin_rl/descriptors/__init__.py",
+      "sha256": "c98cf0eb0f47637b69fe51268e3c41ab57755c6ba79a38ec268d65134107095a"
+    },
+    {
+      "byte_length": 6781,
+      "relative_path": "src/gremlin_rl/descriptors/dynamics_survey.py",
+      "sha256": "5bfb391958f31dc64bcf8b3a11f1e8e04e9bd99b2b9e4a4de791915a8d72a3f4"
+    },
+    {
+      "byte_length": 28840,
+      "relative_path": "src/gremlin_rl/descriptors/known_cases.py",
+      "sha256": "65c24d6e2b46f8553819e916f51ec44728676dd50205bb45ec491a38f6476687"
+    },
+    {
+      "byte_length": 9552,
+      "relative_path": "src/gremlin_rl/discovery/__init__.py",
+      "sha256": "7819676794407a4ae8bcc3806be6c0417be2d444f697c1d47bc27852d7ec2b1a"
+    },
+    {
+      "byte_length": 9361,
+      "relative_path": "src/gremlin_rl/discovery/aggregation.py",
+      "sha256": "26b55f16f002b7aa2ab3329d0e075d8d808e6d9c77ec7d80b27ec77f54a5ddd8"
+    },
+    {
+      "byte_length": 10840,
+      "relative_path": "src/gremlin_rl/discovery/checkpoint.py",
+      "sha256": "15303cb205b0eb04ece6b638ac6ce1741c7ebe21af5aee668c74eb1fc3ed9c10"
+    },
+    {
+      "byte_length": 8825,
+      "relative_path": "src/gremlin_rl/discovery/collection.py",
+      "sha256": "1de4141618c1758554c436179b72f2013781867d35472357981f997b9b1b256a"
+    },
+    {
+      "byte_length": 7487,
+      "relative_path": "src/gremlin_rl/discovery/collector.py",
+      "sha256": "fcdf8a9adc4acd5b3a5632350ce8bc7e9efdd2a72841ac757187813bcf498c45"
+    },
+    {
+      "byte_length": 25399,
+      "relative_path": "src/gremlin_rl/discovery/deployment.py",
+      "sha256": "93986cd311cf9e40db9a9879f5ede0eac0a8ad9693aa497a42d8daf90fa940af"
+    },
+    {
+      "byte_length": 2454,
+      "relative_path": "src/gremlin_rl/discovery/disco_agent.py",
+      "sha256": "6b6ec490ac5de1c2a908fa87dc9addc59e407e80644c66462edb0a1c59f594aa"
+    },
+    {
+      "byte_length": 7368,
+      "relative_path": "src/gremlin_rl/discovery/disco_kernel.py",
+      "sha256": "eb94eba262a813dc25a4c15b1bb64f26b4dba2340cf501ef5c8a521bba697a13"
+    },
+    {
+      "byte_length": 2844,
+      "relative_path": "src/gremlin_rl/discovery/disco_state.py",
+      "sha256": "c1b0cc479af0561d19af4fc370dcb834231f9e468336864808e745e88d49f61a"
+    },
+    {
+      "byte_length": 17518,
+      "relative_path": "src/gremlin_rl/discovery/distributed.py",
+      "sha256": "eafc5acff4970512d4cb453e3b10943a74bee414a6ee62feeb16e36be8f5900e"
+    },
+    {
+      "byte_length": 16384,
+      "relative_path": "src/gremlin_rl/discovery/group_state.py",
+      "sha256": "2ca25b7e6477ed3539b7b95bb4db75222385dd2c6dbedd206771c5ec2eb0e1a1"
+    },
+    {
+      "byte_length": 5859,
+      "relative_path": "src/gremlin_rl/discovery/human_runtime.py",
+      "sha256": "9316949205bdd8c42978e955cf1e87ddd3fc25f2ddc8f0d2edb330d45db0b358"
+    },
+    {
+      "byte_length": 14318,
+      "relative_path": "src/gremlin_rl/discovery/lifecycle.py",
+      "sha256": "8c0be2f7abb410307fe3c96dd7bb2760a808581ddf37c7fa6644944d965f5e84"
+    },
+    {
+      "byte_length": 11949,
+      "relative_path": "src/gremlin_rl/discovery/local_transport.py",
+      "sha256": "8084ae05ce981ac0fe39a5f73bf0be4a168bf34551075b72b3cd69d12ee2c0ec"
+    },
+    {
+      "byte_length": 12591,
+      "relative_path": "src/gremlin_rl/discovery/local_workspace.py",
+      "sha256": "0978a03e59e2e8a74f763c748f0ad59f858d8fcb1c7233c26d51551f3a44a5b9"
+    },
+    {
+      "byte_length": 2592,
+      "relative_path": "src/gremlin_rl/discovery/monitoring.py",
+      "sha256": "c76cdb41e9fad05416721dde4ffd06f3d76fb7d3e1de76c1158ea498c0d1ce48"
+    },
+    {
+      "byte_length": 11018,
+      "relative_path": "src/gremlin_rl/discovery/pinned_runtime.py",
+      "sha256": "47d5920c5a2f98ea124ae0ac07d8b7b807a974b23efc66ca3ebb529be052868a"
+    },
+    {
+      "byte_length": 8383,
+      "relative_path": "src/gremlin_rl/discovery/project_storage.py",
+      "sha256": "691742cf04c75fd2d4c7a4c878c473ef80a557a6e734436e4c69395a581f3669"
+    },
+    {
+      "byte_length": 12716,
+      "relative_path": "src/gremlin_rl/discovery/protocol.py",
+      "sha256": "b662107928b8f1ab55bfccf52bf57329aa39d2120a497949a01b0553cdadbee8"
+    },
+    {
+      "byte_length": 16090,
+      "relative_path": "src/gremlin_rl/discovery/remote_worker.py",
+      "sha256": "92d4a0237e7c997a87bca2090d581b67e42fd86fd3fb1b7648314efead1866ef"
+    },
+    {
+      "byte_length": 15983,
+      "relative_path": "src/gremlin_rl/discovery/replay.py",
+      "sha256": "620b93cb20780047d85c8da8d281d5d5fcff97d71661fe781589c965f96ed3fa"
+    },
+    {
+      "byte_length": 4838,
+      "relative_path": "src/gremlin_rl/discovery/round.py",
+      "sha256": "eff70dd6d2ef3d458549f1b49dd40f1303fde6bc376d45d05ae28b80b03519b7"
+    },
+    {
+      "byte_length": 7332,
+      "relative_path": "src/gremlin_rl/discovery/runner.py",
+      "sha256": "c26e0019694653e886195babe1f2fea9a25023a092e727dc2c3c87408a15aab4"
+    },
+    {
+      "byte_length": 8703,
+      "relative_path": "src/gremlin_rl/discovery/state.py",
+      "sha256": "6c49335f7b47debccbe7aa25901f6b051d99b4058e08b1727df03406a7f98e30"
+    },
+    {
+      "byte_length": 13469,
+      "relative_path": "src/gremlin_rl/discovery/state_codec.py",
+      "sha256": "a3ca1dfa66afda70299cf61d6a489eb938cddee194de5a87e69d22a9811ab6ac"
+    },
+    {
+      "byte_length": 2792,
+      "relative_path": "src/gremlin_rl/discovery/teacher_activation.py",
+      "sha256": "015b15c4a4a2db81c83308be71ea0fe176d4f0db13db721a341480f6804629cb"
+    },
+    {
+      "byte_length": 6851,
+      "relative_path": "src/gremlin_rl/discovery/trajectory.py",
+      "sha256": "fd38cd0cbb10fce639369188a74fb898498fb6fa47ebcd4cf185ef3b15bb7bc0"
+    },
+    {
+      "byte_length": 9402,
+      "relative_path": "src/gremlin_rl/discovery/wire.py",
+      "sha256": "b5141dfef4d726912bba7419b8f685ac6b11fc3e820070681f51e00db03962a8"
+    },
+    {
+      "byte_length": 5566,
+      "relative_path": "src/gremlin_rl/discovery/worker_retention.py",
+      "sha256": "c75c86b69328a4fff59e52d95f0ee4fa552de063df35f9219f5a0b1fbc1a7bdf"
+    },
+    {
+      "byte_length": 442,
+      "relative_path": "src/gremlin_rl/environment/__init__.py",
+      "sha256": "2bd09ebc1aedfb219cd3f55f496f9dfd15790bfe31a852f65f50055d3fa858d5"
+    },
+    {
+      "byte_length": 12660,
+      "relative_path": "src/gremlin_rl/environment/core.py",
+      "sha256": "19d081d0bd68bbd31451f84e5c53792fe509fb1f4e3b01bcdefb4bddd2577e90"
+    },
+    {
+      "byte_length": 3758,
+      "relative_path": "src/gremlin_rl/environment/delayed_reward.py",
+      "sha256": "c710f9fd83a85289e30fb72004bd09279c8c58cc172becde6c8ed81bdfd470b6"
+    },
+    {
+      "byte_length": 3608,
+      "relative_path": "src/gremlin_rl/environment/preview_dynamics.py",
+      "sha256": "db79a069aadb522a1ff3a185bdd636b3b71233111e0effcf77366410f571c20f"
+    },
+    {
+      "byte_length": 22630,
+      "relative_path": "src/gremlin_rl/environment/sampler.py",
+      "sha256": "0e1e328f455ad98f0f7f9d4dd778d6935dee46b9fffda318dd5db9cf0ecb3260"
+    },
+    {
+      "byte_length": 42,
+      "relative_path": "src/gremlin_rl/experiments/__init__.py",
+      "sha256": "b7f743f723d53e72500ce639296fdfdb33347afbff5b4951ba7d43343e98baf3"
+    },
+    {
+      "byte_length": 7011,
+      "relative_path": "src/gremlin_rl/experiments/calibration.py",
+      "sha256": "b921f3c751ee811c34e5f7d77c8c87ad8f7433f6231cd1bae9baefa4e0a876ce"
+    },
+    {
+      "byte_length": 6446,
+      "relative_path": "src/gremlin_rl/experiments/calibration_runtime.py",
+      "sha256": "d4586efb93535d613892ab02f5a4781a46fb97e96c4163504f9dcb73f02a62d5"
+    },
+    {
+      "byte_length": 7920,
+      "relative_path": "src/gremlin_rl/experiments/calibration_workspace.py",
+      "sha256": "79909d63e4154b4f09b224de0b0f1d4a5e309e648b03d508bcb976b1337750c4"
+    },
+    {
+      "byte_length": 14940,
+      "relative_path": "src/gremlin_rl/experiments/d0.py",
+      "sha256": "df8ef315edbba983bdb72feb5956ecf049c1830aa72b3535f746c6415a179697"
+    },
+    {
+      "byte_length": 26363,
+      "relative_path": "src/gremlin_rl/experiments/ddqn_ga1.py",
+      "sha256": "364c4a309471677d8d0962522a50a7ddb164284e128230c058a7bf522135fbbc"
+    },
+    {
+      "byte_length": 23798,
+      "relative_path": "src/gremlin_rl/experiments/disco103_catch.py",
+      "sha256": "86986795fa19ee9d933dc169ef78ac25facdb2e1d30cfc4526b8a2599c864a52"
+    },
+    {
+      "byte_length": 7357,
+      "relative_path": "src/gremlin_rl/experiments/disco_adapter.py",
+      "sha256": "bd15da853b1cbf3cae1eb03b0854ffec128b2aeb8ab2d9b29f9c14cb99ea8539"
+    },
+    {
+      "byte_length": 22544,
+      "relative_path": "src/gremlin_rl/experiments/dly1.py",
+      "sha256": "676a034032d455097c06fc488fb0cdfb7d2b049c08bb765180b908e352c2f81a"
+    },
+    {
+      "byte_length": 13568,
+      "relative_path": "src/gremlin_rl/experiments/double_dqn.py",
+      "sha256": "b34b44635d9d057945c9e139aec4ddda94144abad46bd06373b2836f381a9f4e"
+    },
+    {
+      "byte_length": 6220,
+      "relative_path": "src/gremlin_rl/experiments/frozen_rule.py",
+      "sha256": "b2541cf4f693ab53dcb52d60218c947fe86835b7dc54f430e7ee4bbd1d71f059"
+    },
+    {
+      "byte_length": 5402,
+      "relative_path": "src/gremlin_rl/experiments/human_control.py",
+      "sha256": "6d207fd81c931b16ecc88a11bf97f73651278f434cc516310fe2707cae36aab1"
+    },
+    {
+      "byte_length": 45728,
+      "relative_path": "src/gremlin_rl/experiments/immediate_bank.py",
+      "sha256": "1cdf6fc684370e923bf3eb00b8a48995994bb9f7915dcea969d8a3a9bd0eae18"
+    },
+    {
+      "byte_length": 14452,
+      "relative_path": "src/gremlin_rl/experiments/learning_probe.py",
+      "sha256": "4d846f33c1865ddfa4cd66c81b0e0ea22d31ef3ac3c7104bcd5ab310d6cbf9cf"
+    },
+    {
+      "byte_length": 8683,
+      "relative_path": "src/gremlin_rl/experiments/ordinary.py",
+      "sha256": "dfb3c3bd75a9206ef3422e04ccda2e1e0fe120b4a9c09ed4a57db48ed39de0cf"
+    },
+    {
+      "byte_length": 6177,
+      "relative_path": "src/gremlin_rl/experiments/reward_fit.py",
+      "sha256": "08380041949d0d818ec6b1703824e092be859d8f6dd879d7581cdb2a58122f58"
+    },
+    {
+      "byte_length": 18104,
+      "relative_path": "src/gremlin_rl/experiments/strategy_control.py",
+      "sha256": "3edc951059e0c6237efa525690df60d9640c6fe78f047d1dabf2c7f66f337212"
+    },
+    {
+      "byte_length": 3807,
+      "relative_path": "src/gremlin_rl/experiments/strategy_reward.py",
+      "sha256": "ef2da726c486cc68185adae20edaf60862036386787452c9ecfffe0fa03ba598"
+    },
+    {
+      "byte_length": 1393,
+      "relative_path": "src/gremlin_rl/numerics.py",
+      "sha256": "e4fa90ea6f70b1b61682c89f2b57d577d8af14de5c34dd06dd61ecc2e09ab6d7"
+    },
+    {
+      "byte_length": 3048,
+      "relative_path": "src/gremlin_rl/seeding.py",
+      "sha256": "d013784c46fc9cc4b571088c7a2156e5b8c35e50bd0cefde51eeda806894e49a"
+    }
+  ],
+  "schema_version": "gremlin-code-release-v1",
+  "source_revision": "f64a73fd6fea613753902b407c7f856f7dfc8ecd"
+}

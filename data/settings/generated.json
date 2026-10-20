@@ -1,0 +1,2018 @@
+{
+  "0-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 0
+  },
+  "0-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 0
+  },
+  "0-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 0,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "0-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 0,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "0-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 0,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "0-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 0,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "0-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 0
+  },
+  "0-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 0
+  },
+  "0-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 0
+  },
+  "0-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 0
+  },
+  "1-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 1
+  },
+  "1-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 1
+  },
+  "1-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 1,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "1-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 1,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "1-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 1,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "1-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 1,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "1-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 1
+  },
+  "1-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 1
+  },
+  "1-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 1
+  },
+  "1-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 1
+  },
+  "10-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 10
+  },
+  "10-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 10
+  },
+  "10-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 10,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "10-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 10,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "10-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 10,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "10-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 10,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "10-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 10
+  },
+  "10-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 10
+  },
+  "10-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 10
+  },
+  "10-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 10
+  },
+  "11-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 11
+  },
+  "11-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 11
+  },
+  "11-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 11,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "11-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 11,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "11-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 11,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "11-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 11,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "11-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 11
+  },
+  "11-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 11
+  },
+  "11-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 11
+  },
+  "11-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 11
+  },
+  "12-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 12
+  },
+  "12-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 12
+  },
+  "12-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 12,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "12-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 12,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "12-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 12,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "12-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 12,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "12-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 12
+  },
+  "12-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 12
+  },
+  "12-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 12
+  },
+  "12-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 12
+  },
+  "13-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 13
+  },
+  "13-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 13
+  },
+  "13-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 13,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "13-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 13,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "13-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 13,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "13-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 13,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "13-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 13
+  },
+  "13-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 13
+  },
+  "13-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 13
+  },
+  "13-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 13
+  },
+  "14-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 14
+  },
+  "14-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 14
+  },
+  "14-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 14,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "14-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 14,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "14-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 14,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "14-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 14,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "14-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 14
+  },
+  "14-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 14
+  },
+  "14-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 14
+  },
+  "14-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 14
+  },
+  "15-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 15
+  },
+  "15-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 15
+  },
+  "15-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 15,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "15-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 15,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "15-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 15,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "15-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 15,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "15-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 15
+  },
+  "15-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 15
+  },
+  "15-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 15
+  },
+  "15-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 15
+  },
+  "2-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 2
+  },
+  "2-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 2
+  },
+  "2-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 2,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "2-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 2,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "2-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 2,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "2-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 2,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "2-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 2
+  },
+  "2-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 2
+  },
+  "2-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 2
+  },
+  "2-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 2
+  },
+  "3-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 3
+  },
+  "3-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 3
+  },
+  "3-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 3,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "3-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 3,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "3-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 3,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "3-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 3,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "3-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 3
+  },
+  "3-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 3
+  },
+  "3-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 3
+  },
+  "3-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 3
+  },
+  "4-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 4
+  },
+  "4-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 4
+  },
+  "4-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 4,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "4-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 4,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "4-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 4,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "4-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 4,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "4-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 4
+  },
+  "4-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 4
+  },
+  "4-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 4
+  },
+  "4-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 4
+  },
+  "5-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 5
+  },
+  "5-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 5
+  },
+  "5-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 5,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "5-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 5,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "5-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 5,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "5-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 5,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "5-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 5
+  },
+  "5-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 5
+  },
+  "5-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 5
+  },
+  "5-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 5
+  },
+  "6-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 6
+  },
+  "6-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 6
+  },
+  "6-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 6,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "6-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 6,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "6-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 6,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "6-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 6,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "6-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 6
+  },
+  "6-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 6
+  },
+  "6-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 6
+  },
+  "6-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 6
+  },
+  "7-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 7
+  },
+  "7-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 7
+  },
+  "7-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 7,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "7-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 7,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "7-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 7,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "7-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 7,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "7-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 7
+  },
+  "7-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 7
+  },
+  "7-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 7
+  },
+  "7-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 7
+  },
+  "8-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 8
+  },
+  "8-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 8
+  },
+  "8-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 8,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "8-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 8,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "8-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 8,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "8-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 8,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "8-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 8
+  },
+  "8-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 8
+  },
+  "8-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 8
+  },
+  "8-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 8
+  },
+  "9-disco103-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 9
+  },
+  "9-disco103-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 9
+  },
+  "9-double-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 9,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "9-double-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "double-dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 9,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "9-dqn-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 0,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 9,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "9-dqn-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "dependency_commit": "9059a29f7121d60948f25ef165e08e050e9399c8",
+    "disco_evaluation": "greedy",
+    "evaluation_episodes": 32,
+    "grid": [
+      0,
+      70000,
+      142800,
+      282800
+    ],
+    "method": "dqn",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "schema": "gremlin-calibration-v1",
+    "score": "raw-undiscounted-128",
+    "seed": 1,
+    "source_commit": "f64a73fd6fea613753902b407c7f856f7dfc8ecd",
+    "task_index": 9,
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+  },
+  "9-gremlin-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 9
+  },
+  "9-gremlin-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 9
+  },
+  "9-initial-0": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 0,
+    "task_index": 9
+  },
+  "9-initial-1": {
+    "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+    "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+    "root_seed": "c9f83b44e0027b65005b547d34f2c3c1bfa2b9949ec13a141873913d864f4345",
+    "seed": 1,
+    "task_index": 9
+  }
+}

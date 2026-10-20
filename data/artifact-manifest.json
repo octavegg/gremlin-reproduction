@@ -1,0 +1,104 @@
+{
+  "files": [
+    {
+      "bytes": 3029915,
+      "path": "artifacts/teachers/0.state",
+      "sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "bytes": 3029915,
+      "path": "artifacts/teachers/1000.state",
+      "sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "bytes": 2803507,
+      "path": "artifacts/teachers/disco_103.npz",
+      "sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "bytes": 3776,
+      "path": "artifacts/bank/bank.json",
+      "sha256": "406eff8afb8968bdb76ec2d57a303014d3dd9d663f3018f270ebf8d0ed1b78a0"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0000.npz",
+      "sha256": "7b7d83ad0d7f1091c2ba78a5482f2df6531dcc8f9161101db620ecda244920e0"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0001.npz",
+      "sha256": "f9fa19b0dcb43118caaf8111086353700596cf165441fa19912c3b85901a6e82"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0002.npz",
+      "sha256": "26ee443a1c099a6be0587f1c6621110d79fe27aef0d8fbd1902d6ebb1e86595b"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0003.npz",
+      "sha256": "bf6d3fd9968b3f33ec9b1918f3fc0bf1de25eedc64538e132fe5de99d73ec3ae"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0004.npz",
+      "sha256": "baef8e996086339e2f6036c28af14b1cfddf46137e264f4b5d7bc26d12b920a8"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0005.npz",
+      "sha256": "6bce7e9abd0f9198b7b17fa80562ee451850db50d41b77057572d4f40f0789f8"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0006.npz",
+      "sha256": "f8374eb2e66582c2f8cd3944fd01e87241740c85bb6a11b15301c86291fc9336"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0007.npz",
+      "sha256": "1d0d3392f5a3d32c6931f891c75d033ca92a8dc54f6f85ccce4b6c681afae270"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0008.npz",
+      "sha256": "ba0e02cd3a87bbdddbb6373ec1ae5e336b1f320b098108b21567051039e8160c"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0009.npz",
+      "sha256": "9117bb704bc3670c9f0205e838477e37f4159a9934ff5384bcc44fb5a761e827"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0010.npz",
+      "sha256": "dd6829a1a0905928f884bf4a3ff1ce63837a37ad250234b1bc57f44caf7f0682"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0011.npz",
+      "sha256": "290e12e97ef220d176250ff8bd3cdebd2623a3ffcd17632abde528b8a26f282a"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0012.npz",
+      "sha256": "3c1c5cd9191193bfe88661d1bd962dc727eb195bcc3fc149f336898378eaeb73"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0013.npz",
+      "sha256": "d23983d7d650d9deeae39c43e9eabb855af9b6c02831f17511f39767212add23"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0014.npz",
+      "sha256": "ba6f2a629d476b872031d6b3c9a31564726016b897d97279f943a60ee92e0166"
+    },
+    {
+      "bytes": 175375,
+      "path": "artifacts/bank/task-0015.npz",
+      "sha256": "a72a790be1585244a635ae3824df935cbc6872a8bd56f589582b8e69171a424d"
+    }
+  ]
+}

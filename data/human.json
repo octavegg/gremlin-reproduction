@@ -1,0 +1,3405 @@
+{
+  "rows": [
+    {
+      "actual_grid": [
+        0,
+        26400,
+        102770,
+        255689,
+        502649,
+        1001161
+      ],
+      "budget": 1000000,
+      "final_return": -175.32,
+      "interactions": 1001161,
+      "mean_curve_return": -419.4480764506966,
+      "mean_returns": [
+        -500,
+        -500,
+        -500,
+        -500,
+        -500,
+        -175.32
+      ],
+      "method": "disco103",
+      "result_sha256": "516b176547c574789ad951e86ab45b5f981825481ffcd63763481f533ce43795",
+      "seed": 0,
+      "task": "acrobot",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": -81.75,
+      "interactions": 1000448,
+      "mean_curve_return": -166.0779985566086,
+      "mean_returns": [
+        -500,
+        -500,
+        -500,
+        -122.625,
+        -88.9375,
+        -81.75
+      ],
+      "method": "dqn",
+      "result_sha256": "52e4a2d5bb951b41a812382b4edac2329c9a85c2c8c524785b487774c52b084f",
+      "seed": 0,
+      "task": "acrobot",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        26362,
+        102691,
+        255569,
+        502525,
+        1002098
+      ],
+      "budget": 1000000,
+      "final_return": -498.23,
+      "interactions": 1002098,
+      "mean_curve_return": -499.2753910802765,
+      "mean_returns": [
+        -500,
+        -500,
+        -500,
+        -499.96875,
+        -499.25,
+        -498.23
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "99713c27355025587405e575638144054ecf40f8ffc36d1f503617e75fa64d6c",
+      "seed": 0,
+      "task": "acrobot",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        26352,
+        102541,
+        255420,
+        502165,
+        1001827
+      ],
+      "budget": 1000000,
+      "final_return": -499.65,
+      "interactions": 1001827,
+      "mean_curve_return": -499.5426049454206,
+      "mean_returns": [
+        -500,
+        -497.09375,
+        -500,
+        -500,
+        -499.40625,
+        -499.65
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "39c3c63d77063edc6d8563ecabd8fdbc5ab213ff0f95c76ba2e85cddd21419d4",
+      "seed": 0,
+      "task": "acrobot",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        26150,
+        102476,
+        255019,
+        505460,
+        1003860
+      ],
+      "budget": 1000000,
+      "final_return": -96.1,
+      "interactions": 1003860,
+      "mean_curve_return": -234.52372818416183,
+      "mean_returns": [
+        -482.625,
+        -496.125,
+        -500,
+        -411,
+        -104.65625,
+        -96.1
+      ],
+      "method": "disco103",
+      "result_sha256": "ed335b991b89449fae1b360aaaea86250960a93a363cd5bba6085db6838945f8",
+      "seed": 1,
+      "task": "acrobot",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": -83.3,
+      "interactions": 1000448,
+      "mean_curve_return": -121.33715843514344,
+      "mean_returns": [
+        -500,
+        -500,
+        -121.59375,
+        -121,
+        -83.125,
+        -83.3
+      ],
+      "method": "dqn",
+      "result_sha256": "f0ad890b979370c4af882eb900cc28ffea709ef3374572785b2ac763207e30cc",
+      "seed": 1,
+      "task": "acrobot",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        26400,
+        102800,
+        255642,
+        502413,
+        1001975
+      ],
+      "budget": 1000000,
+      "final_return": -497.4,
+      "interactions": 1001975,
+      "mean_curve_return": -498.1351311039776,
+      "mean_returns": [
+        -482.625,
+        -500,
+        -500,
+        -500,
+        -497.34375,
+        -497.4
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "65f1827e0c14ed512020a7ce26c1b6637f1515892e5df9a4fe1bec3b15d8ff04",
+      "seed": 1,
+      "task": "acrobot",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        26400,
+        102736,
+        255639,
+        502474,
+        1001974
+      ],
+      "budget": 1000000,
+      "final_return": -498.63,
+      "interactions": 1001974,
+      "mean_curve_return": -498.0318280383723,
+      "mean_returns": [
+        -482.625,
+        -500,
+        -500,
+        -500,
+        -496.25,
+        -498.63
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "d1ef1f39354c63bd7f8211b7c7cf4f90bd9c5ece141cd8b2e9b39683b0d55ab6",
+      "seed": 1,
+      "task": "acrobot",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        26400,
+        102670,
+        253154,
+        500440,
+        1004440
+      ],
+      "budget": 1000000,
+      "final_return": -96.92,
+      "interactions": 1004440,
+      "mean_curve_return": -237.21747915194643,
+      "mean_returns": [
+        -498.1875,
+        -500,
+        -488.09375,
+        -435.125,
+        -104.09375,
+        -96.92
+      ],
+      "method": "disco103",
+      "result_sha256": "a8a179d42a9481452c75210043f6bc2158c017a3cda625eb2ef98e7f37dde593",
+      "seed": 2,
+      "task": "acrobot",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": -81.52,
+      "interactions": 1000448,
+      "mean_curve_return": -133.00095627070183,
+      "mean_returns": [
+        -500,
+        -234.375,
+        -401.125,
+        -94.8125,
+        -80.96875,
+        -81.52
+      ],
+      "method": "dqn",
+      "result_sha256": "8a145d13b8712e4baee9556c76df697432c2f6137dd8d99d0b13713cb01d96f9",
+      "seed": 2,
+      "task": "acrobot",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        26341,
+        102611,
+        255368,
+        502129,
+        1001732
+      ],
+      "budget": 1000000,
+      "final_return": -498.3,
+      "interactions": 1001732,
+      "mean_curve_return": -499.1388438556218,
+      "mean_returns": [
+        -498.1875,
+        -494.0625,
+        -499.03125,
+        -500,
+        -500,
+        -498.3
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "5c4d85d974e8b29ec5a216a41f017d093afe857251dc4aa5764f2c7cb67220ba",
+      "seed": 2,
+      "task": "acrobot",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        26400,
+        102723,
+        255728,
+        502564,
+        1002048
+      ],
+      "budget": 1000000,
+      "final_return": -499.26,
+      "interactions": 1002048,
+      "mean_curve_return": -499.64283795800867,
+      "mean_returns": [
+        -498.1875,
+        -500,
+        -500,
+        -499.25,
+        -500,
+        -499.26
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "6629bd7e65f5dec1fa8c6db714625c23a63d07af754ff32d82f8c81a51148e99",
+      "seed": 2,
+      "task": "acrobot",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        26335,
+        102667,
+        255347,
+        501116,
+        1002702
+      ],
+      "budget": 1000000,
+      "final_return": -100.56,
+      "interactions": 1002702,
+      "mean_curve_return": -387.053298229026,
+      "mean_returns": [
+        -496.34375,
+        -500,
+        -490,
+        -495.6875,
+        -468.4375,
+        -100.56
+      ],
+      "method": "disco103",
+      "result_sha256": "288d7ea93ab5fc44e4d21aed378a77dfb1f6c108959e28accd676440e9af9d09",
+      "seed": 3,
+      "task": "acrobot",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": -88.28,
+      "interactions": 1000448,
+      "mean_curve_return": -249.06323899525614,
+      "mean_returns": [
+        -500,
+        -500,
+        -500,
+        -500,
+        -104.4375,
+        -88.28
+      ],
+      "method": "dqn",
+      "result_sha256": "710db7f8139378a3cc1656476e483de16f6e80d02e3552864d5865d580160318",
+      "seed": 3,
+      "task": "acrobot",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        26345,
+        102682,
+        255528,
+        502037,
+        1001573
+      ],
+      "budget": 1000000,
+      "final_return": -497.93,
+      "interactions": 1001573,
+      "mean_curve_return": -498.2491229890065,
+      "mean_returns": [
+        -496.34375,
+        -494.34375,
+        -500,
+        -495.5,
+        -500,
+        -497.93
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "b62f6d697bf2087c71c89b59d49ecdfdcf23f5aeee0b7fc25f54b8a09bdf6c3d",
+      "seed": 3,
+      "task": "acrobot",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        26324,
+        102652,
+        255562,
+        502273,
+        1001693
+      ],
+      "budget": 1000000,
+      "final_return": -499.01,
+      "interactions": 1001693,
+      "mean_curve_return": -499.343214094743,
+      "mean_returns": [
+        -496.34375,
+        -494.75,
+        -500,
+        -499.53125,
+        -500,
+        -499.01
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "3f975f58970bc42ecb323b3ccbfee72091fcdf365246e5de01518762fd9ef142",
+      "seed": 3,
+      "task": "acrobot",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        26361,
+        102670,
+        255387,
+        501345,
+        1005405
+      ],
+      "budget": 1000000,
+      "final_return": -92.99,
+      "interactions": 1005405,
+      "mean_curve_return": -252.1944845344542,
+      "mean_returns": [
+        -500,
+        -500,
+        -500,
+        -490.53125,
+        -111.90625,
+        -92.99
+      ],
+      "method": "disco103",
+      "result_sha256": "551b40fd0f74c1dd2dce74593cd0e4adb48bb765ef71b5f74b216dd10209f95d",
+      "seed": 4,
+      "task": "acrobot",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": -101.1,
+      "interactions": 1000448,
+      "mean_curve_return": -141.28067262310452,
+      "mean_returns": [
+        -500,
+        -500,
+        -167.1875,
+        -174.78125,
+        -82.0625,
+        -101.1
+      ],
+      "method": "dqn",
+      "result_sha256": "4431f6849a4820b894316c51fdd04b7eae6c34c8458c0de504a84a8f8a9da724",
+      "seed": 4,
+      "task": "acrobot",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        26400,
+        102631,
+        255480,
+        502330,
+        1002094
+      ],
+      "budget": 1000000,
+      "final_return": -499.47,
+      "interactions": 1002094,
+      "mean_curve_return": -498.4919638571161,
+      "mean_returns": [
+        -500,
+        -500,
+        -494.90625,
+        -500,
+        -497.875,
+        -499.47
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "cb3528d32570162708ec29b18c1097709b0e11571a38110882f8d8138609e601",
+      "seed": 4,
+      "task": "acrobot",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        26400,
+        102648,
+        255536,
+        502405,
+        1002034
+      ],
+      "budget": 1000000,
+      "final_return": -498.84,
+      "interactions": 1002034,
+      "mean_curve_return": -499.45837206733546,
+      "mean_returns": [
+        -500,
+        -500,
+        -497.78125,
+        -500,
+        -500,
+        -498.84
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "bcbd37ba6abea94686fe6a8d09ee61a324eea46c2235e46bfb0944489bc95457",
+      "seed": 4,
+      "task": "acrobot",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 6.32,
+      "interactions": 5003600,
+      "mean_curve_return": 5.39026606548418,
+      "mean_returns": [
+        1.46875,
+        1.34375,
+        1.6875,
+        0.96875,
+        1.875,
+        8.125,
+        6.32
+      ],
+      "method": "disco103",
+      "result_sha256": "39a56db65cfcb55f06e783a8b8eec34e0beafde7d17530e6c491155c33d6e4bc",
+      "seed": 0,
+      "task": "breakout",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 5.72,
+      "interactions": 5000192,
+      "mean_curve_return": 7.551315193872184,
+      "mean_returns": [
+        1.75,
+        3.3125,
+        10.84375,
+        5.25,
+        6.21875,
+        9.875,
+        5.72
+      ],
+      "method": "dqn",
+      "result_sha256": "29c6e10f8b95a87fe658f44220ba18cd1368ae2a21e587cf0bdd65f4ebac6fa6",
+      "seed": 0,
+      "task": "breakout",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 2.1,
+      "interactions": 5003600,
+      "mean_curve_return": 1.7390449223394056,
+      "mean_returns": [
+        1.46875,
+        0.09375,
+        0.375,
+        0.4375,
+        1.25,
+        2.25,
+        2.1
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "12150b6cb62d320f14d09a2aab8f80c5c22ab2c2113398050877734dc46f092c",
+      "seed": 0,
+      "task": "breakout",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.46,
+      "interactions": 5003600,
+      "mean_curve_return": 1.5107185278283797,
+      "mean_returns": [
+        1.46875,
+        1.71875,
+        1.4375,
+        1.15625,
+        1.90625,
+        1.40625,
+        1.46
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "367a48dd0668137492a971c018a485fa6b51cfdc2bdfff6f45b4afc1d5d0ed72",
+      "seed": 0,
+      "task": "breakout",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.47,
+      "interactions": 5003600,
+      "mean_curve_return": 1.224744646260786,
+      "mean_returns": [
+        0.84375,
+        1.34375,
+        0.8125,
+        0.6875,
+        1.28125,
+        1.1875,
+        1.47
+      ],
+      "method": "disco103",
+      "result_sha256": "f5a9c0ee232bff032d906af79d9616c8d610899941de7688a9c2903b3881e7d6",
+      "seed": 1,
+      "task": "breakout",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 7.31,
+      "interactions": 5000192,
+      "mean_curve_return": 6.7385375995354355,
+      "mean_returns": [
+        0,
+        1.8125,
+        7.65625,
+        6.71875,
+        5.03125,
+        7.625,
+        7.31
+      ],
+      "method": "dqn",
+      "result_sha256": "85226ec9a93f53647664e23039ef6704e2da64ba848df73353746cf26c4a402c",
+      "seed": 1,
+      "task": "breakout",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 0.55,
+      "interactions": 5003600,
+      "mean_curve_return": 0.5700987920661553,
+      "mean_returns": [
+        0.84375,
+        1.1875,
+        0.59375,
+        0.6875,
+        0.65625,
+        0.46875,
+        0.55
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "2a8400a02b99f65df440719e0dd069523c2ffd7b41655b33c29c1b55c0df69f1",
+      "seed": 1,
+      "task": "breakout",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.46,
+      "interactions": 5003600,
+      "mean_curve_return": 1.3625373263662512,
+      "mean_returns": [
+        0.84375,
+        1.4375,
+        1.6875,
+        1.0625,
+        1.40625,
+        1.3125,
+        1.46
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "d31cffb586acdcb2cf20121ced32e96dc715c987a4b66a9c2279a6686884cbb6",
+      "seed": 1,
+      "task": "breakout",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 5.88,
+      "interactions": 5003600,
+      "mean_curve_return": 6.557023653954938,
+      "mean_returns": [
+        0.9375,
+        1.34375,
+        2.59375,
+        7.5,
+        7.84375,
+        7.03125,
+        5.88
+      ],
+      "method": "disco103",
+      "result_sha256": "ec19a3ad0ee7e996c06eb9c8528858e63d00572ab94950a1f13c1df042741dc0",
+      "seed": 2,
+      "task": "breakout",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 4.14,
+      "interactions": 5000192,
+      "mean_curve_return": 6.55562559352376,
+      "mean_returns": [
+        0,
+        2.53125,
+        7.375,
+        0,
+        8.75,
+        8.53125,
+        4.14
+      ],
+      "method": "dqn",
+      "result_sha256": "042dc23ff459640ecc9a31e3c598581332aa48ea49ca4990e75b3efed71e00ac",
+      "seed": 2,
+      "task": "breakout",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 6.31,
+      "interactions": 5003600,
+      "mean_curve_return": 5.830810153187919,
+      "mean_returns": [
+        0.9375,
+        1.59375,
+        6.75,
+        6.09375,
+        6.34375,
+        5.53125,
+        6.31
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "2f3f77c0876aa0105f566bd8f03210f838510850145afbd239d2caf7aca9ab19",
+      "seed": 2,
+      "task": "breakout",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.39,
+      "interactions": 5003600,
+      "mean_curve_return": 1.4943400636145734,
+      "mean_returns": [
+        0.9375,
+        1.59375,
+        1.625,
+        0.9375,
+        1.3125,
+        1.75,
+        1.39
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "dc3c019525289c3a764a21955b40fd561993595779bae25b363a01f7c5f93348",
+      "seed": 2,
+      "task": "breakout",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.12,
+      "interactions": 5003600,
+      "mean_curve_return": 1.2195994650527324,
+      "mean_returns": [
+        1.375,
+        1.25,
+        1.40625,
+        1.34375,
+        1.3125,
+        1.1875,
+        1.12
+      ],
+      "method": "disco103",
+      "result_sha256": "662678c814bbaf6f5d872fcb0c061828e88dcd36cb8242a957165a470d0a812a",
+      "seed": 3,
+      "task": "breakout",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 9.42,
+      "interactions": 5000192,
+      "mean_curve_return": 6.576227208177796,
+      "mean_returns": [
+        0,
+        1.65625,
+        7.15625,
+        9.84375,
+        8.03125,
+        3.875,
+        9.42
+      ],
+      "method": "dqn",
+      "result_sha256": "e2372f84de16fa44f72100bc5428116b549139b20491597fe290454748d55b63",
+      "seed": 3,
+      "task": "breakout",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.68,
+      "interactions": 5003600,
+      "mean_curve_return": 1.5989417946548417,
+      "mean_returns": [
+        1.375,
+        1.53125,
+        1.4375,
+        1.34375,
+        1.65625,
+        1.59375,
+        1.68
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "6bf3c4a9b75cb3cf78afe8a8e2de3eee629992e9641daff7bdafa1a80b82256d",
+      "seed": 3,
+      "task": "breakout",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.24,
+      "interactions": 5003600,
+      "mean_curve_return": 1.2434003418983701,
+      "mean_returns": [
+        1.375,
+        1.28125,
+        1.09375,
+        1.5,
+        1.53125,
+        1.0625,
+        1.24
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "74b50eb76a64b1406bd1d38d32c94159d0b0f2049b31e66f7954d1af0efc2046",
+      "seed": 3,
+      "task": "breakout",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 3.04,
+      "interactions": 5003600,
+      "mean_curve_return": 2.8747965045302015,
+      "mean_returns": [
+        1.625,
+        1.375,
+        2.21875,
+        2.1875,
+        3,
+        3.03125,
+        3.04
+      ],
+      "method": "disco103",
+      "result_sha256": "251f7d18fd92cddc0673a43ec3d827ecf8c12a337e8d0767e5c94e43de9d56b0",
+      "seed": 4,
+      "task": "breakout",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 8.78,
+      "interactions": 5000192,
+      "mean_curve_return": 7.738582402579066,
+      "mean_returns": [
+        0,
+        3.25,
+        4.53125,
+        9.59375,
+        8.75,
+        7.03125,
+        8.78
+      ],
+      "method": "dqn",
+      "result_sha256": "3b7aab7e38253d43f62ed07598f00077969309aaaa2903cdcaacf548fe623f03",
+      "seed": 4,
+      "task": "breakout",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 6.14,
+      "interactions": 5003600,
+      "mean_curve_return": 6.0959053386625115,
+      "mean_returns": [
+        1.625,
+        4.59375,
+        5.84375,
+        5.3125,
+        7.0625,
+        5.96875,
+        6.14
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "63b2deaa0a2352df425891e5d7d3f0bc34e798019c31c859ef64f56ac0745493",
+      "seed": 4,
+      "task": "breakout",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 1.13,
+      "interactions": 5003600,
+      "mean_curve_return": 1.1715992202301055,
+      "mean_returns": [
+        1.625,
+        1.53125,
+        1.34375,
+        1.65625,
+        0.90625,
+        1.1875,
+        1.13
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "4c61b8f885ed76c91dd581e3a41a39aee061c6c26722f094e67cc71d4a0842d0",
+      "seed": 4,
+      "task": "breakout",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 152,
+      "interactions": 5003600,
+      "mean_curve_return": 156.8322284833413,
+      "mean_returns": [
+        140.15625,
+        124.6875,
+        144.6875,
+        166.40625,
+        165.625,
+        157.34375,
+        152
+      ],
+      "method": "disco103",
+      "result_sha256": "cde570be4337cb123b89ab2b0b0aefaa6afce88b07147e13cbf55701d7288cd1",
+      "seed": 0,
+      "task": "invaders",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 400.95,
+      "interactions": 5000192,
+      "mean_curve_return": 354.8162880825153,
+      "mean_returns": [
+        285,
+        212.5,
+        263.125,
+        274.21875,
+        386.71875,
+        345,
+        400.95
+      ],
+      "method": "dqn",
+      "result_sha256": "86c7921599b90e16b98f81665085b40bb19a1f567f81c2145f32456123041aa2",
+      "seed": 0,
+      "task": "invaders",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 21.35,
+      "interactions": 5003600,
+      "mean_curve_return": 28.043516241850437,
+      "mean_returns": [
+        140.15625,
+        0.46875,
+        1.875,
+        13.28125,
+        34.0625,
+        33.4375,
+        21.35
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "e3ec8c2513d82297be1df8a7f1c916ca42c5f7c06ea46b1afc9c20c06570d0bc",
+      "seed": 0,
+      "task": "invaders",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 143.9,
+      "interactions": 5003600,
+      "mean_curve_return": 156.53583433401246,
+      "mean_returns": [
+        140.15625,
+        152.03125,
+        144.53125,
+        168.125,
+        175.15625,
+        154.84375,
+        143.9
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "b04dae8651581ed1f8950e3d3ad78bae5b1863229f0850c0a98573a55a96b583",
+      "seed": 0,
+      "task": "invaders",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 269.3,
+      "interactions": 5003600,
+      "mean_curve_return": 276.8903341078619,
+      "mean_returns": [
+        147.5,
+        275.15625,
+        285.46875,
+        283.28125,
+        296.09375,
+        273.4375,
+        269.3
+      ],
+      "method": "disco103",
+      "result_sha256": "c4ae18fe0fb8142990d957bf8d1ae2c3cb1d63bd4d30765bd1221ed4c4c50211",
+      "seed": 1,
+      "task": "invaders",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 292.25,
+      "interactions": 5000192,
+      "mean_curve_return": 254.01131208765875,
+      "mean_returns": [
+        110,
+        233.90625,
+        261.875,
+        251.71875,
+        257.65625,
+        232.8125,
+        292.25
+      ],
+      "method": "dqn",
+      "result_sha256": "fa53cfe642e6cbd20d870e24f669775a2e3ec25c3cdce7d23b7970d3da29e01d",
+      "seed": 1,
+      "task": "invaders",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 30.7,
+      "interactions": 5003600,
+      "mean_curve_return": 31.14518553199904,
+      "mean_returns": [
+        147.5,
+        153.125,
+        7.03125,
+        42.03125,
+        23.4375,
+        24.84375,
+        30.7
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "2e9cd06851b23ad4aad9807f3882f2b4c75fa10828a5d244f0c3c8ec475107fb",
+      "seed": 1,
+      "task": "invaders",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 136.2,
+      "interactions": 5003600,
+      "mean_curve_return": 139.87388370853307,
+      "mean_returns": [
+        147.5,
+        138.59375,
+        162.65625,
+        150.46875,
+        123.59375,
+        145.9375,
+        136.2
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "0f62f5a2a4b2b4b2e201b11a710571d3f7da1fcd89b084935e6bc95999f1126a",
+      "seed": 1,
+      "task": "invaders",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 162.55,
+      "interactions": 5003600,
+      "mean_curve_return": 163.5454591725791,
+      "mean_returns": [
+        126.09375,
+        169.6875,
+        179.53125,
+        152.34375,
+        160.9375,
+        166.5625,
+        162.55
+      ],
+      "method": "disco103",
+      "result_sha256": "dc5290447de45977fae8673aec74dac471a6d7b4e7cb8e59f9aa60080ff2b77d",
+      "seed": 2,
+      "task": "invaders",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 177.95,
+      "interactions": 5000192,
+      "mean_curve_return": 210.5847039342974,
+      "mean_returns": [
+        285,
+        234.84375,
+        243.75,
+        194.0625,
+        220.3125,
+        222.5,
+        177.95
+      ],
+      "method": "dqn",
+      "result_sha256": "153a97a65a9d2ae71187c8f12824e4da8a34b17c5809d59be3ecefc4c5d2f435",
+      "seed": 2,
+      "task": "invaders",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 279.9,
+      "interactions": 5003600,
+      "mean_curve_return": 278.5472582128475,
+      "mean_returns": [
+        126.09375,
+        291.25,
+        280.3125,
+        285.3125,
+        275.46875,
+        280.9375,
+        279.9
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "819774c339c1e3f6fb1aa336de66bca25f121ce6465be3d66187d32f401a5da2",
+      "seed": 2,
+      "task": "invaders",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 157.9,
+      "interactions": 5003600,
+      "mean_curve_return": 137.86037507646213,
+      "mean_returns": [
+        126.09375,
+        159.84375,
+        126.09375,
+        129.84375,
+        114.84375,
+        138.4375,
+        157.9
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "dd045082f190d64a25ad43dd3362716266530ebb35c65991b73e8d316a520ac1",
+      "seed": 2,
+      "task": "invaders",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 220.2,
+      "interactions": 5003600,
+      "mean_curve_return": 244.5417641591563,
+      "mean_returns": [
+        138.90625,
+        216.40625,
+        270.3125,
+        260.3125,
+        250.78125,
+        255.625,
+        220.2
+      ],
+      "method": "disco103",
+      "result_sha256": "a10476f7a78c9370b75b100c420bc5f7232fb5d9a2e9f20d7ade28cdd27379e2",
+      "seed": 3,
+      "task": "invaders",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 290.05,
+      "interactions": 5000192,
+      "mean_curve_return": 268.33171205468767,
+      "mean_returns": [
+        225,
+        165.3125,
+        283.59375,
+        403.125,
+        233.4375,
+        252.96875,
+        290.05
+      ],
+      "method": "dqn",
+      "result_sha256": "47eee5d368b824fb82b96b9129b4adb0e5a82e408986933c4b95d26b2cb86aa0",
+      "seed": 3,
+      "task": "invaders",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 270.05,
+      "interactions": 5003600,
+      "mean_curve_return": 270.07530623933366,
+      "mean_returns": [
+        138.90625,
+        254.21875,
+        271.5625,
+        268.90625,
+        283.90625,
+        267.65625,
+        270.05
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "9e065e5dba66347abc6597d2e7f7a5309ad124fb2082e9581622f4a4359fc3fa",
+      "seed": 3,
+      "task": "invaders",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 141.3,
+      "interactions": 5003600,
+      "mean_curve_return": 149.74209370038352,
+      "mean_returns": [
+        138.90625,
+        142.03125,
+        158.28125,
+        160.78125,
+        129.21875,
+        163.125,
+        141.3
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "9b34d5f228820f27ad5bede1bbfd2d67d56843901e53d332a4cb08a975072ba6",
+      "seed": 3,
+      "task": "invaders",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 264.45,
+      "interactions": 5003600,
+      "mean_curve_return": 272.3790966777325,
+      "mean_returns": [
+        187.34375,
+        280,
+        257.03125,
+        279.6875,
+        284.21875,
+        273.28125,
+        264.45
+      ],
+      "method": "disco103",
+      "result_sha256": "facb68adca37ed7bf04bf35f23e01c7de3b3a74e0d2ddd972539e580041cc1b4",
+      "seed": 4,
+      "task": "invaders",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 306.2,
+      "interactions": 5000192,
+      "mean_curve_return": 320.65843193886013,
+      "mean_returns": [
+        0,
+        228.90625,
+        305.625,
+        307.8125,
+        320.15625,
+        347.65625,
+        306.2
+      ],
+      "method": "dqn",
+      "result_sha256": "25f9f0ed0b5ca1dc4c8a85d62d999f074ca5519f453dc40a95105ef9ef78874b",
+      "seed": 4,
+      "task": "invaders",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 283.85,
+      "interactions": 5003600,
+      "mean_curve_return": 275.375316361697,
+      "mean_returns": [
+        187.34375,
+        217.65625,
+        284.53125,
+        281.25,
+        280.3125,
+        271.5625,
+        283.85
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "d97b3e4a26094af4d55429425697a83dd93214f953671fcfc7c2959a6622863f",
+      "seed": 4,
+      "task": "invaders",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 163.7,
+      "interactions": 5003600,
+      "mean_curve_return": 164.65875539177853,
+      "mean_returns": [
+        187.34375,
+        161.875,
+        169.6875,
+        114.0625,
+        152.65625,
+        179.84375,
+        163.7
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "8277577ed87f935e17c6596e3f93aa2b39ae493e6f566f26ba93407280a47295",
+      "seed": 4,
+      "task": "invaders",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103618,
+        250477,
+        500987,
+        1001643
+      ],
+      "budget": 1000000,
+      "final_return": 71.9055630431949,
+      "interactions": 1001643,
+      "mean_curve_return": 31.64487191438434,
+      "mean_returns": [
+        -192.07617622604948,
+        -186.702864302257,
+        -131.78310281666916,
+        -23.66968790726554,
+        120.88637842411379,
+        71.9055630431949
+      ],
+      "method": "disco103",
+      "result_sha256": "0725fe34704f1704e015d002e9df9ca83320b333d4854019534b3e45e85a879d",
+      "seed": 0,
+      "task": "lander",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": 44.55199608186002,
+      "interactions": 1000448,
+      "mean_curve_return": 21.392870585216507,
+      "mean_returns": [
+        -135.15198777672117,
+        -110.27038266930977,
+        -119.5744367910342,
+        114.7508121736344,
+        21.454448006918984,
+        44.55199608186002
+      ],
+      "method": "dqn",
+      "result_sha256": "c7a91bae97d48b10a5b97dd690b307b37bca1d7f453a912cb21793d6710f5f10",
+      "seed": 0,
+      "task": "lander",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103670,
+        250655,
+        500205,
+        1005324
+      ],
+      "budget": 1000000,
+      "final_return": 12.757427272516228,
+      "interactions": 1005324,
+      "mean_curve_return": -37.752393912734306,
+      "mean_returns": [
+        -192.07617622604948,
+        -181.10977984073688,
+        6.478912032137151,
+        -108.72085823713587,
+        -21.92751932517013,
+        12.757427272516228
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "08c2c44a4c6049d23c66b2dcd67f5bc54ddcc53437f5f411f390f5d8d00c98de",
+      "seed": 0,
+      "task": "lander",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103617,
+        254838,
+        501262,
+        1005318
+      ],
+      "budget": 1000000,
+      "final_return": -191.1659166412918,
+      "interactions": 1005318,
+      "mean_curve_return": -173.23916792322856,
+      "mean_returns": [
+        -192.07617622604948,
+        -175.63796409213305,
+        -142.3054771592735,
+        -174.50322799921,
+        -169.283047709414,
+        -191.1659166412918
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "d76e6e14a6e639feda5435051549279a9c1ade2078bd19e2e0b87a5fe48b1ddf",
+      "seed": 0,
+      "task": "lander",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103600,
+        251180,
+        501588,
+        1003175
+      ],
+      "budget": 1000000,
+      "final_return": 65.25462853663916,
+      "interactions": 1003175,
+      "mean_curve_return": 27.883209549666073,
+      "mean_returns": [
+        -173.45216705150239,
+        -235.89287861753903,
+        -69.59061427089193,
+        119.15775414451709,
+        27.34244014782133,
+        65.25462853663916
+      ],
+      "method": "disco103",
+      "result_sha256": "cdf3745804f27c8513f90de8079573f63df67b68bccd491d63c1fc5133765f05",
+      "seed": 1,
+      "task": "lander",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": 206.97676913589186,
+      "interactions": 1000448,
+      "mean_curve_return": 100.42400162866996,
+      "mean_returns": [
+        -554.1151981279943,
+        -88.24388335235797,
+        -81.16019902894851,
+        10.31350762846341,
+        179.83675095085582,
+        206.97676913589186
+      ],
+      "method": "dqn",
+      "result_sha256": "e1f1dad6d6719754214973a6aa6d28bc083eaeb28a6594e17f26452f4537fd04",
+      "seed": 1,
+      "task": "lander",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        25226,
+        103636,
+        250528,
+        500779,
+        1005543
+      ],
+      "budget": 1000000,
+      "final_return": -73.52813391171027,
+      "interactions": 1005543,
+      "mean_curve_return": -83.03736217076126,
+      "mean_returns": [
+        -173.45216705150239,
+        -182.9074120312917,
+        -142.18238383867293,
+        94.27327401489734,
+        -148.14903399475344,
+        -73.52813391171027
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "592bf679a087ebd19b81e4aec1438ccacde40efca6f17adf191d136218dfe0eb",
+      "seed": 1,
+      "task": "lander",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103624,
+        254824,
+        501267,
+        1005369
+      ],
+      "budget": 1000000,
+      "final_return": -187.30283508615153,
+      "interactions": 1005369,
+      "mean_curve_return": -171.12670466669306,
+      "mean_returns": [
+        -173.45216705150239,
+        -193.03912896847962,
+        -158.73621383948287,
+        -163.59330782939955,
+        -165.170387409344,
+        -187.30283508615153
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "40e2abe5aafe557fa825df5bec29d674280160ba976e3d91b06db7af4d701d22",
+      "seed": 1,
+      "task": "lander",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103600,
+        250592,
+        500692,
+        1001462
+      ],
+      "budget": 1000000,
+      "final_return": 49.43074663971783,
+      "interactions": 1001462,
+      "mean_curve_return": 20.89358313126625,
+      "mean_returns": [
+        -197.47120119511504,
+        -241.30912896884388,
+        -196.8300115740316,
+        119.13253777737621,
+        58.880417933859,
+        49.43074663971783
+      ],
+      "method": "disco103",
+      "result_sha256": "b40a9a85364640340d429de9f3bc6fefa91cf0d85f9ac276e73db7c3ed3770a0",
+      "seed": 2,
+      "task": "lander",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": 132.83089535699642,
+      "interactions": 1000448,
+      "mean_curve_return": -13.489895118709493,
+      "mean_returns": [
+        -236.94702004590212,
+        -133.9234074828087,
+        -63.96481085192684,
+        -27.39187331476263,
+        -64.51110439780778,
+        132.83089535699642
+      ],
+      "method": "dqn",
+      "result_sha256": "189e6081f46513ceca92df7d8ababf05449e90fedde4933d25023b69945d8b52",
+      "seed": 2,
+      "task": "lander",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103625,
+        250596,
+        500028,
+        1000997
+      ],
+      "budget": 1000000,
+      "final_return": -20.39800342338341,
+      "interactions": 1000997,
+      "mean_curve_return": -8.536518583852164,
+      "mean_returns": [
+        -197.47120119511504,
+        -196.68277188327988,
+        -20.445678263622465,
+        102.17345655481911,
+        -23.228797830196427,
+        -20.39800342338341
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "c1e43de27d5e663142955402b4762e26b8f6fe76f18f42dda08d94e087f4d15c",
+      "seed": 2,
+      "task": "lander",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103600,
+        254800,
+        501225,
+        1005274
+      ],
+      "budget": 1000000,
+      "final_return": -194.1964955651254,
+      "interactions": 1005274,
+      "mean_curve_return": -193.5791364729909,
+      "mean_returns": [
+        -197.47120119511504,
+        -147.2816688959445,
+        -171.05131642616772,
+        -223.81917486749336,
+        -190.303403620446,
+        -194.1964955651254
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "9531300feb3052a80f1afbfb27f94b2cca9d070a5b07049bd9886f132aba4024",
+      "seed": 2,
+      "task": "lander",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103645,
+        250185,
+        500907,
+        1002363
+      ],
+      "budget": 1000000,
+      "final_return": 68.86659612794797,
+      "interactions": 1002363,
+      "mean_curve_return": 29.979227341108075,
+      "mean_returns": [
+        -162.45261702871272,
+        -217.70748939943374,
+        -91.6570928107478,
+        25.47007768504961,
+        83.6394983609537,
+        68.86659612794797
+      ],
+      "method": "disco103",
+      "result_sha256": "e1fa5c3125463c00175518b403ca6baa2ca0cb48f43b843434fd53f04c2e4943",
+      "seed": 3,
+      "task": "lander",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": 199.39039347390786,
+      "interactions": 1000448,
+      "mean_curve_return": 73.48821688246245,
+      "mean_returns": [
+        -289.87185041607836,
+        -89.9348406897171,
+        -64.69023278947228,
+        -20.37729744134333,
+        115.66035587122171,
+        199.39039347390786
+      ],
+      "method": "dqn",
+      "result_sha256": "6d2e8c3b478889968be74230901514c02c454fc51ed191c2b40cc93621f94c53",
+      "seed": 3,
+      "task": "lander",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        25218,
+        103743,
+        250769,
+        501563,
+        1001815
+      ],
+      "budget": 1000000,
+      "final_return": 6.007787360024625,
+      "interactions": 1001815,
+      "mean_curve_return": -26.527282795255935,
+      "mean_returns": [
+        -162.45261702871272,
+        -180.68979811790823,
+        -31.63641754194542,
+        -5.939031991741542,
+        -31.553445685259618,
+        6.007787360024625
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "c85672017ff4ebc32fd670a3060fd997680c2cd2970630c6279b728d6a509da7",
+      "seed": 3,
+      "task": "lander",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103604,
+        254851,
+        501280,
+        1005355
+      ],
+      "budget": 1000000,
+      "final_return": -181.7317151056728,
+      "interactions": 1005355,
+      "mean_curve_return": -169.78623135233414,
+      "mean_returns": [
+        -162.45261702871272,
+        -194.41859815145742,
+        -180.18581384966276,
+        -153.12870216340022,
+        -164.4223053932322,
+        -181.7317151056728
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "f92bd59e2150441dc77e55f40819cc13d31d5ca5b76c594301d30b7a79fbe18e",
+      "seed": 3,
+      "task": "lander",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103626,
+        250477,
+        501043,
+        1001552
+      ],
+      "budget": 1000000,
+      "final_return": 56.60428449556547,
+      "interactions": 1001552,
+      "mean_curve_return": -14.836704757329633,
+      "mean_returns": [
+        -181.97773807080807,
+        -254.06633610272485,
+        -203.4498806389975,
+        58.9462486716183,
+        -6.003275767222467,
+        56.60428449556547
+      ],
+      "method": "disco103",
+      "result_sha256": "7fc6fbd9efd4d957024fc5e3274a47592a54bed129d5bd1c11109aeb5d186e46",
+      "seed": 4,
+      "task": "lander",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        25600,
+        100352,
+        250880,
+        500736,
+        1000448
+      ],
+      "budget": 1000000,
+      "final_return": 202.33017526686314,
+      "interactions": 1000448,
+      "mean_curve_return": 89.23607858684328,
+      "mean_returns": [
+        -889.9117481453276,
+        -153.69694299132786,
+        -45.496767136198706,
+        78.95160356620399,
+        125.92678318036606,
+        202.33017526686314
+      ],
+      "method": "dqn",
+      "result_sha256": "63b1056fe93aecc3265ca0c5f2e58fe818e4fe0494a323e22cb6489826697ca9",
+      "seed": 4,
+      "task": "lander",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103624,
+        250530,
+        501095,
+        1005364
+      ],
+      "budget": 1000000,
+      "final_return": -53.545892690414966,
+      "interactions": 1005364,
+      "mean_curve_return": -45.077279048269496,
+      "mean_returns": [
+        -181.97773807080807,
+        -174.40647459163253,
+        -69.6243503917519,
+        9.309533858386523,
+        -38.52487691546289,
+        -53.545892690414966
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "aaa25d41112c80eb03476e952491f01c0cb04621118767ad0b437b80f2344ea2",
+      "seed": 4,
+      "task": "lander",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        25200,
+        103600,
+        254819,
+        501243,
+        1005318
+      ],
+      "budget": 1000000,
+      "final_return": -183.72587620423351,
+      "interactions": 1005318,
+      "mean_curve_return": -185.351374855946,
+      "mean_returns": [
+        -181.97773807080807,
+        -222.03481357019265,
+        -196.03228110655377,
+        -173.3256756307238,
+        -184.57341176875323,
+        -183.72587620423351
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "5674814b127593cc8faece50145464fd0b531c8818b29fb266a201b7ba40a5e8",
+      "seed": 4,
+      "task": "lander",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 826,
+      "interactions": 5003600,
+      "mean_curve_return": 689.7687656663471,
+      "mean_returns": [
+        134.375,
+        203.90625,
+        199.21875,
+        292.1875,
+        621.09375,
+        807.8125,
+        826
+      ],
+      "method": "disco103",
+      "result_sha256": "d5331708953d675a2fe224714419265f493c42afd2aa2c2ee28149d32cd22248",
+      "seed": 0,
+      "task": "qbert",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 344.25,
+      "interactions": 5000192,
+      "mean_curve_return": 287.9021601528267,
+      "mean_returns": [
+        207.03125,
+        196.875,
+        355.46875,
+        389.84375,
+        275.78125,
+        240.625,
+        344.25
+      ],
+      "method": "dqn",
+      "result_sha256": "6737b7157bb2f6a137a737b4d69d9e5b3239e184fff9973fabb43cbbd0d3e582",
+      "seed": 0,
+      "task": "qbert",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 126.25,
+      "interactions": 5003600,
+      "mean_curve_return": 126.1821873382071,
+      "mean_returns": [
+        134.375,
+        125,
+        125.78125,
+        126.5625,
+        125,
+        126.5625,
+        126.25
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "685d01a5983d29a479ce6ec942f5a3c70e23354e867b44ebd8eb0cc95ba5747b",
+      "seed": 0,
+      "task": "qbert",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 158.5,
+      "interactions": 5003600,
+      "mean_curve_return": 166.64550458353307,
+      "mean_returns": [
+        134.375,
+        155.46875,
+        171.09375,
+        182.8125,
+        182.8125,
+        161.71875,
+        158.5
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "8702d318e89aaf4b1aa0af388aee3cf81ef5714336e0a8b022c93217d4d50757",
+      "seed": 0,
+      "task": "qbert",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 590.75,
+      "interactions": 5003600,
+      "mean_curve_return": 559.5025128643337,
+      "mean_returns": [
+        146.875,
+        307.03125,
+        226.5625,
+        396.875,
+        760.9375,
+        529.6875,
+        590.75
+      ],
+      "method": "disco103",
+      "result_sha256": "eeebb58e42fe577a260d8ab9208a8fb86530b2bb2e1fd0fc369dc7d4ac6cbb93",
+      "seed": 1,
+      "task": "qbert",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 460.25,
+      "interactions": 5000192,
+      "mean_curve_return": 368.4180001821845,
+      "mean_returns": [
+        241.40625,
+        297.65625,
+        293.75,
+        563.28125,
+        274.21875,
+        336.71875,
+        460.25
+      ],
+      "method": "dqn",
+      "result_sha256": "465056018bab5a6f8a77d01f2675e0946309eb4234bd3af456e313ad5b28d86c",
+      "seed": 1,
+      "task": "qbert",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 120,
+      "interactions": 5003600,
+      "mean_curve_return": 287.8939945949185,
+      "mean_returns": [
+        146.875,
+        39.0625,
+        14.0625,
+        101.5625,
+        492.96875,
+        371.875,
+        120
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "deeff8b507c35429000b56d8d0d6cf5395e7b5792013006edb5cc182a6a09c67",
+      "seed": 1,
+      "task": "qbert",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 170.25,
+      "interactions": 5003600,
+      "mean_curve_return": 157.13275342521572,
+      "mean_returns": [
+        146.875,
+        174.21875,
+        192.96875,
+        149.21875,
+        146.09375,
+        151.5625,
+        170.25
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "f2fb89f24a76e8f064e4c3f71c1182285271ac5024410481baa0b2b82ab68ffd",
+      "seed": 1,
+      "task": "qbert",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 652.25,
+      "interactions": 5003600,
+      "mean_curve_return": 563.5529051707813,
+      "mean_returns": [
+        179.6875,
+        96.875,
+        246.875,
+        314.84375,
+        482.8125,
+        666.40625,
+        652.25
+      ],
+      "method": "disco103",
+      "result_sha256": "93d08fcb8ccf0aca692a03b4328b2c6a3112df6ea5cc9d970f5df0d0b8f5d351",
+      "seed": 2,
+      "task": "qbert",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 767.5,
+      "interactions": 5000192,
+      "mean_curve_return": 486.0216803553359,
+      "mean_returns": [
+        0,
+        317.1875,
+        232.8125,
+        165.625,
+        269.53125,
+        526.5625,
+        767.5
+      ],
+      "method": "dqn",
+      "result_sha256": "02cf33515c5f06e55a698e627c012bead69dedc276365ed451b0ba239d7e9954",
+      "seed": 2,
+      "task": "qbert",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 374.5,
+      "interactions": 5003600,
+      "mean_curve_return": 314.6771401773729,
+      "mean_returns": [
+        179.6875,
+        5.46875,
+        33.59375,
+        47.65625,
+        212.5,
+        429.6875,
+        374.5
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "7a2b377e7d5b5102c81644a11d2f2a3df61c04a8178fc99c1c0e3423f51f7c85",
+      "seed": 2,
+      "task": "qbert",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 149,
+      "interactions": 5003600,
+      "mean_curve_return": 167.45995025227708,
+      "mean_returns": [
+        179.6875,
+        189.0625,
+        164.84375,
+        185.9375,
+        170.3125,
+        172.65625,
+        149
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "1355b371dcc8abeba4f1d36739a1eff2724c3174dd7f717a13e82677916c53e4",
+      "seed": 2,
+      "task": "qbert",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 850.25,
+      "interactions": 5003600,
+      "mean_curve_return": 842.5529624496644,
+      "mean_returns": [
+        144.53125,
+        422.65625,
+        291.40625,
+        303.90625,
+        494.53125,
+        1212.5,
+        850.25
+      ],
+      "method": "disco103",
+      "result_sha256": "de1564dc31aa8a3c66a3edb99aa58862b8ec2fb664f29cda1b0517f5ebd1e6cb",
+      "seed": 3,
+      "task": "qbert",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 323,
+      "interactions": 5000192,
+      "mean_curve_return": 323.4189600327683,
+      "mean_returns": [
+        0,
+        297.65625,
+        331.25,
+        351.5625,
+        376.5625,
+        300.78125,
+        323
+      ],
+      "method": "dqn",
+      "result_sha256": "7a4c7bfa5aaafc56f3dd6d2e5c1a11ee72b971dabb0ddcdbd29a8dccfa169573",
+      "seed": 3,
+      "task": "qbert",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 155,
+      "interactions": 5003600,
+      "mean_curve_return": 155.72690560282837,
+      "mean_returns": [
+        144.53125,
+        162.5,
+        150,
+        150,
+        158.59375,
+        156.25,
+        155
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "0866bd1b9f7710a8642715df1c5b723b08a5e9ad1fe5f469ba6b4aae1cbbc5b4",
+      "seed": 3,
+      "task": "qbert",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 173.5,
+      "interactions": 5003600,
+      "mean_curve_return": 168.84731271512464,
+      "mean_returns": [
+        144.53125,
+        120.3125,
+        171.875,
+        157.8125,
+        141.40625,
+        185.15625,
+        173.5
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "ff76f4775d9becaef6ff34daa72155bb8acfb1d380395be8a75aded6b1974958",
+      "seed": 3,
+      "task": "qbert",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 885.25,
+      "interactions": 5003600,
+      "mean_curve_return": 655.6072485474592,
+      "mean_returns": [
+        158.59375,
+        367.96875,
+        171.09375,
+        305.46875,
+        339.0625,
+        815.625,
+        885.25
+      ],
+      "method": "disco103",
+      "result_sha256": "d79a24f7de6a67169030d70bc09684a1c0e323f2a3bb28c5897008a27c9ad829",
+      "seed": 4,
+      "task": "qbert",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 325,
+      "interactions": 5000192,
+      "mean_curve_return": 328.0099199861737,
+      "mean_returns": [
+        150,
+        277.34375,
+        365.625,
+        339.0625,
+        322.65625,
+        334.375,
+        325
+      ],
+      "method": "dqn",
+      "result_sha256": "764887d5ed7c8380e194e4c4d5081ac5fdcb34d776497034cc02b9b289b89276",
+      "seed": 4,
+      "task": "qbert",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 239.25,
+      "interactions": 5003600,
+      "mean_curve_return": 197.38363848394056,
+      "mean_returns": [
+        158.59375,
+        74.21875,
+        114.0625,
+        292.96875,
+        160.15625,
+        189.0625,
+        239.25
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "70cf8f5aab2f5bc25c26b185c6b35f2fa8a42e6ee4b997d7a256987946319d17",
+      "seed": 4,
+      "task": "qbert",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 155.5,
+      "interactions": 5003600,
+      "mean_curve_return": 160.70640964585328,
+      "mean_returns": [
+        158.59375,
+        178.90625,
+        148.4375,
+        141.40625,
+        125.78125,
+        185.15625,
+        155.5
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "cf05a62f32318b372b9a36b04149895662b7deb14fcfa6884d8c5a167f71f3fd",
+      "seed": 4,
+      "task": "qbert",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 444.6,
+      "interactions": 5003600,
+      "mean_curve_return": 355.32682580441036,
+      "mean_returns": [
+        80,
+        273.75,
+        459.375,
+        421.25,
+        298.75,
+        317.5,
+        444.6
+      ],
+      "method": "disco103",
+      "result_sha256": "0efdfd904b450fbe6927ea7ac513a154c764c7af54f6164b9238ebcba1b55e86",
+      "seed": 0,
+      "task": "seaquest",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 315.8,
+      "interactions": 5000192,
+      "mean_curve_return": 365.8167679237526,
+      "mean_returns": [
+        80,
+        170,
+        162.5,
+        211.25,
+        562.5,
+        367.5,
+        315.8
+      ],
+      "method": "dqn",
+      "result_sha256": "0dac39632d26b4974b95ab1b166b43f3986e462f9ae98815254aa40ba0ee763b",
+      "seed": 0,
+      "task": "seaquest",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 193.6,
+      "interactions": 5003600,
+      "mean_curve_return": 186.7276128346117,
+      "mean_returns": [
+        80,
+        81.25,
+        186.25,
+        161.875,
+        203.75,
+        188.125,
+        193.6
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "9fc5d626eab959c44f1a766e2454ab92ce90c7e4701516c08fc11f1a96c1a9c0",
+      "seed": 0,
+      "task": "seaquest",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 86.2,
+      "interactions": 5003600,
+      "mean_curve_return": 79.40517676941515,
+      "mean_returns": [
+        80,
+        83.75,
+        88.125,
+        87.5,
+        78.125,
+        73.125,
+        86.2
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "9a20a8b36a65a1bce8516d0fbb98a9f1ae33f0ef37009b0934f684efca56207e",
+      "seed": 0,
+      "task": "seaquest",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 514.6,
+      "interactions": 5003600,
+      "mean_curve_return": 457.3250255647172,
+      "mean_returns": [
+        69.375,
+        290,
+        478.75,
+        434.375,
+        473.75,
+        436.25,
+        514.6
+      ],
+      "method": "disco103",
+      "result_sha256": "cbc7deab9e45e6c8784ff9de0599059c6992afd8e655121d94361e3d775d2331",
+      "seed": 1,
+      "task": "seaquest",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 361,
+      "interactions": 5000192,
+      "mean_curve_return": 184.29939231487094,
+      "mean_returns": [
+        35.625,
+        136.25,
+        80,
+        113.125,
+        98.125,
+        147.5,
+        361
+      ],
+      "method": "dqn",
+      "result_sha256": "a8cd63f0942f7a3501acf83f44d4b64262dad9b0c4848195254c001b52c3a6f6",
+      "seed": 1,
+      "task": "seaquest",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 202.2,
+      "interactions": 5003600,
+      "mean_curve_return": 214.1903501059444,
+      "mean_returns": [
+        69.375,
+        84.375,
+        206.875,
+        235.625,
+        193.75,
+        240.625,
+        202.2
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "8c18e17a19a310a86aaeeca4da5fbac4559be2fa0420d95ccddee389cbe0abf1",
+      "seed": 1,
+      "task": "seaquest",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 72.2,
+      "interactions": 5003600,
+      "mean_curve_return": 78.46086693240652,
+      "mean_returns": [
+        69.375,
+        80.625,
+        67.5,
+        70,
+        92.5,
+        78.125,
+        72.2
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "45fee5ad0b1f4dabfa0ce4f5fd27ddbe12c09bc2b1d73c55113f2c44d4e5c4b8",
+      "seed": 1,
+      "task": "seaquest",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 462.2,
+      "interactions": 5003600,
+      "mean_curve_return": 436.5445399908916,
+      "mean_returns": [
+        82.5,
+        304.375,
+        415,
+        443.75,
+        370.625,
+        471.875,
+        462.2
+      ],
+      "method": "disco103",
+      "result_sha256": "dd7923880d414b1412a2aef3c70b092c313bee28974d29a731d79a4f1ea2f64c",
+      "seed": 2,
+      "task": "seaquest",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 372.4,
+      "interactions": 5000192,
+      "mean_curve_return": 281.34304012428925,
+      "mean_returns": [
+        92.5,
+        159.375,
+        264.375,
+        238.75,
+        198.125,
+        288.125,
+        372.4
+      ],
+      "method": "dqn",
+      "result_sha256": "0975eb6110a751275d5ee126d9f4516731f3d2cb46f7ec62b82bce29dfcaf827",
+      "seed": 2,
+      "task": "seaquest",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 176.6,
+      "interactions": 5003600,
+      "mean_curve_return": 188.11870112080535,
+      "mean_returns": [
+        82.5,
+        91.25,
+        273.75,
+        166.875,
+        200,
+        193.75,
+        176.6
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "2d1aee0896ae11320f29118d9cc3aca01cd79023ab07d29f6489429313dbb37f",
+      "seed": 2,
+      "task": "seaquest",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 76.2,
+      "interactions": 5003600,
+      "mean_curve_return": 85.70011188446789,
+      "mean_returns": [
+        82.5,
+        92.5,
+        70,
+        99.375,
+        82.5,
+        91.875,
+        76.2
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "2b453aaeb1963d77c12c06092d69ca6b9e916d0fffb25e54ea25bf1ac3f9fec7",
+      "seed": 2,
+      "task": "seaquest",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 573.4,
+      "interactions": 5003600,
+      "mean_curve_return": 428.9020339822627,
+      "mean_returns": [
+        75.625,
+        316.875,
+        395,
+        375.625,
+        381.875,
+        391.875,
+        573.4
+      ],
+      "method": "disco103",
+      "result_sha256": "ac46f1b13e45aee7e7fac43f7273d24d29c774da9df37832b324863d4cb015bd",
+      "seed": 3,
+      "task": "seaquest",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 235.8,
+      "interactions": 5000192,
+      "mean_curve_return": 435.8820472075502,
+      "mean_returns": [
+        160,
+        42.5,
+        260.625,
+        200,
+        198.125,
+        773.125,
+        235.8
+      ],
+      "method": "dqn",
+      "result_sha256": "f51a947d89aeb7408b3cfcf74258fd4ffcca199a4599ec61022e843fc7ea06a4",
+      "seed": 3,
+      "task": "seaquest",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 172.2,
+      "interactions": 5003600,
+      "mean_curve_return": 191.9012136965484,
+      "mean_returns": [
+        75.625,
+        244.375,
+        237.5,
+        285,
+        186.875,
+        184.375,
+        172.2
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "157022154905d281fff6d6e4f83f7c6b32d415a74c623c45f7f17501ca486a05",
+      "seed": 3,
+      "task": "seaquest",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 73.6,
+      "interactions": 5003600,
+      "mean_curve_return": 78.1474063628955,
+      "mean_returns": [
+        75.625,
+        75.625,
+        98.75,
+        73.75,
+        76.875,
+        80.625,
+        73.6
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "bcd4bc7c4f672cc2afc539b6bb067cefb7c750286b29ad847237a882782c4c85",
+      "seed": 3,
+      "task": "seaquest",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 366.8,
+      "interactions": 5003600,
+      "mean_curve_return": 360.09761887535956,
+      "mean_returns": [
+        95.625,
+        353.75,
+        441.875,
+        518.75,
+        330.625,
+        340,
+        366.8
+      ],
+      "method": "disco103",
+      "result_sha256": "324fd56e7351a3c239374518ff315dc0c57c48d9c26e81d8147070c7b6de03ba",
+      "seed": 4,
+      "task": "seaquest",
+      "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa"
+    },
+    {
+      "actual_grid": [
+        0,
+        100352,
+        250880,
+        500736,
+        1000448,
+        2500608,
+        5000192
+      ],
+      "budget": 5000000,
+      "final_return": 385.2,
+      "interactions": 5000192,
+      "mean_curve_return": 233.02003235240474,
+      "mean_returns": [
+        80,
+        96.25,
+        91.875,
+        310,
+        240.625,
+        146.25,
+        385.2
+      ],
+      "method": "dqn",
+      "result_sha256": "4d30360dbae3b000f54ea2f0a3b67b5c882b5412b8465cf4768864813411e6d0",
+      "seed": 4,
+      "task": "seaquest",
+      "teacher_sha256": null
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 203.6,
+      "interactions": 5003600,
+      "mean_curve_return": 189.78292480728666,
+      "mean_returns": [
+        95.625,
+        163.125,
+        177.5,
+        195.625,
+        210.625,
+        175,
+        203.6
+      ],
+      "method": "gremlin1000",
+      "result_sha256": "1f023f4aae8b4e3683d5f34499db987f992d07c4bf74751b0724529c4fb70824",
+      "seed": 4,
+      "task": "seaquest",
+      "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53"
+    },
+    {
+      "actual_grid": [
+        0,
+        103600,
+        254800,
+        501200,
+        1005200,
+        2500400,
+        5003600
+      ],
+      "budget": 5000000,
+      "final_return": 82,
+      "interactions": 5003600,
+      "mean_curve_return": 80.23512182885906,
+      "mean_returns": [
+        95.625,
+        91.25,
+        93.125,
+        71.875,
+        60.625,
+        88.125,
+        82
+      ],
+      "method": "initial-leaky",
+      "result_sha256": "e0312a7f7ef93dd2d2da87c3d274d918ef058daaacdd509dea12225ff88f9d46",
+      "seed": 4,
+      "task": "seaquest",
+      "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7"
+    }
+  ],
+  "source_sha256": "f6e7b1106c69ded0051fbeaae4dedeb52f34d9872ca4da93af71feecd2fa8760"
+}

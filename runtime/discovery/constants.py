@@ -1,0 +1,13 @@
+"""Protocol and implementation identifiers that participate in artifacts."""
+
+PROTOCOL_VERSION = "gremlin-theory-v0.1"
+ENVIRONMENT_FAMILY_VERSION = "bounded-neural-pomdp-v0.1"
+ENVIRONMENT_SCHEMA_VERSION = "1.0.0"
+VALIDITY_SCHEMA_VERSION = "1.0.0"
+DESCRIPTOR_SCHEMA_VERSION = "1.0.0"
+PROBE_ARCHIVE_SCHEMA_VERSION = "1.1.0"
+PROBE_PROTOCOL_VERSION = "intrinsic-probes-v0.2"
+PROBE_POLICY_IMPLEMENTATION_VERSION = "gremlin-probe-policies-v0.2"
+API_VERSION = "gremlin-jax-env-v0.1"
+NUMERICAL_SEMANTICS_VERSION = "float32-clip-v0.1"
+SEED_DERIVATION_VERSION = "sha256-be-threefry2x32-v0.1"

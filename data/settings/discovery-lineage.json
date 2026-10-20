@@ -1,0 +1,220 @@
+{
+  "evaluated_checkpoint": 1000,
+  "fresh_agent_steps": 224798000,
+  "stages": [
+    {
+      "after_checkpoint": 0,
+      "scientific_configuration": {
+        "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+        "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+        "bank_kind": "selected",
+        "config_hash": "4c16b217e0bb720fd3c341811bf5e7408e8a42bd9aead2375597540f42b14338",
+        "dependency_revision": "9059a29f7121d60948f25ef165e08e050e9399c8",
+        "lifetime_budgets": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ],
+        "milestone_rounds": [],
+        "population": 32,
+        "retained_recovery_checkpoints": 2,
+        "root_seed": "4ee0d5b42164c0c160e924bbf68a2fdf095f483a0d394c73bfd3389da68a1df8",
+        "run_id": "discovery-selected-20260927",
+        "schema_version": "gremlin-preview-discovery-science-v2",
+        "source_revision": "b73c16b7fd700f65946262a52d4c17256b4a54cf",
+        "total_rounds": 1000000
+      },
+      "source_sha256": "fd1a664cbe6e2afc2b8ac7bee60837127f2c33ea8d39fda0e1c9c19884911886"
+    },
+    {
+      "after_checkpoint": 161,
+      "scientific_configuration": {
+        "agent_learning_rate": 0.01,
+        "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+        "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+        "bank_kind": "selected",
+        "config_hash": "578db9eeb970b58d88124d9d7573d23d8d91027fba2f838531d0c0332f4094f1",
+        "dependency_revision": "9059a29f7121d60948f25ef165e08e050e9399c8",
+        "fork_parent": {
+          "config_hash": "4c16b217e0bb720fd3c341811bf5e7408e8a42bd9aead2375597540f42b14338",
+          "manifest_hash": "8c8b0fa9ba37c30a13fd0eb5b815c60eba81407178afedbb6fc4e088278df0be",
+          "round_index": 161,
+          "run_id": "discovery-selected-20260927"
+        },
+        "lifetime_budgets": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ],
+        "milestone_rounds": [],
+        "population": 32,
+        "retained_recovery_checkpoints": 2,
+        "root_seed": "4ee0d5b42164c0c160e924bbf68a2fdf095f483a0d394c73bfd3389da68a1df8",
+        "run_id": "discovery-selected-lr001-20260930",
+        "schema_version": "gremlin-preview-discovery-science-v3",
+        "source_revision": "a1de21c200ea656da0f545c28f2ff4ff39b3d826",
+        "total_rounds": 1000000
+      },
+      "source_sha256": "ef5705e0faac41659c212f49b6e5212f38662b265a7428dfd5e41bda1df232c1"
+    },
+    {
+      "after_checkpoint": 199,
+      "scientific_configuration": {
+        "agent_learning_rate": 0.01,
+        "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+        "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+        "bank_kind": "selected",
+        "config_hash": "75e542fd2cc7358b2f183ade6b2646c46fe366fc1ce89ae4173d3cc54ef7135c",
+        "dependency_revision": "9059a29f7121d60948f25ef165e08e050e9399c8",
+        "fork_parent": {
+          "config_hash": "578db9eeb970b58d88124d9d7573d23d8d91027fba2f838531d0c0332f4094f1",
+          "manifest_hash": "354f40339496d38c956a3e4d15c755c3924cd4bc6d55501d3e0201c5cee97319",
+          "round_index": 199,
+          "run_id": "discovery-selected-lr001-20260930"
+        },
+        "lifetime_budgets": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ],
+        "lifetime_sampling_weights": [
+          8,
+          4,
+          2,
+          1
+        ],
+        "milestone_rounds": [],
+        "population": 32,
+        "retained_recovery_checkpoints": 2,
+        "root_seed": "4ee0d5b42164c0c160e924bbf68a2fdf095f483a0d394c73bfd3389da68a1df8",
+        "run_id": "discovery-selected-longer-20260930",
+        "schema_version": "gremlin-preview-discovery-science-v4",
+        "source_revision": "68733a87c9225d8de6761a8cbda72226822d5512",
+        "total_rounds": 1000000
+      },
+      "source_sha256": "d77eef541662c2830d93177769f03c824cc6fcc7112b8c4269104dcfcc7d96c7"
+    },
+    {
+      "after_checkpoint": 253,
+      "scientific_configuration": {
+        "agent_learning_rate": 0.01,
+        "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+        "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+        "bank_kind": "selected",
+        "config_hash": "3c421233f7260f9c0b80ef72f6697266bde625732cc4c7703dfe4972ca2c71f9",
+        "dependency_revision": "9059a29f7121d60948f25ef165e08e050e9399c8",
+        "fork_parent": {
+          "config_hash": "75e542fd2cc7358b2f183ade6b2646c46fe366fc1ce89ae4173d3cc54ef7135c",
+          "manifest_hash": "43b88f8baa98d8119ad32b228058b1bf5764e2867267c12f62af7dbe3a15e5d2",
+          "round_index": 253,
+          "run_id": "discovery-selected-longer-20260930"
+        },
+        "lifetime_budgets": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ],
+        "lifetime_sampling_weights": [
+          8,
+          4,
+          2,
+          1
+        ],
+        "milestone_rounds": [],
+        "population": 32,
+        "retained_recovery_checkpoints": 2,
+        "root_seed": "4ee0d5b42164c0c160e924bbf68a2fdf095f483a0d394c73bfd3389da68a1df8",
+        "run_id": "discovery-selected-leaky-20261001",
+        "schema_version": "gremlin-preview-discovery-science-v5",
+        "source_revision": "c8b57370caeb94338ed2273237d2adc2324d3a5c",
+        "teacher_action_activation": "action-input-leaky-relu-0.01",
+        "total_rounds": 1000000
+      },
+      "source_sha256": "f77083c4e21ce1e031326cbc831a2ddedace271ba9412e2ea3cc79154d2c08e4"
+    },
+    {
+      "after_checkpoint": 375,
+      "scientific_configuration": {
+        "agent_learning_rate": 0.01,
+        "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+        "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+        "bank_kind": "selected",
+        "config_hash": "d546a72ef59bd88f20efef0919f89022f9deb34afcfdba7300bc9c566097e116",
+        "dependency_revision": "9059a29f7121d60948f25ef165e08e050e9399c8",
+        "fork_parent": {
+          "config_hash": "3c421233f7260f9c0b80ef72f6697266bde625732cc4c7703dfe4972ca2c71f9",
+          "manifest_hash": "075f8c1b8524846aa41f2570c1ca6cdea1612a3efb836367d406ddb4962471b1",
+          "round_index": 375,
+          "run_id": "discovery-selected-leaky-20261001"
+        },
+        "lifetime_budgets": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ],
+        "lifetime_sampling_weights": [
+          8,
+          4,
+          2,
+          1
+        ],
+        "milestone_rounds": [],
+        "population": 32,
+        "retained_recovery_checkpoints": 2,
+        "root_seed": "4ee0d5b42164c0c160e924bbf68a2fdf095f483a0d394c73bfd3389da68a1df8",
+        "run_id": "discovery-selected-rate10-20261003",
+        "schema_version": "gremlin-preview-discovery-science-v6",
+        "source_revision": "2cb2bfb22f3b32d8216bf1b03e5e2bfba7c1c0b2",
+        "teacher_action_activation": "action-input-leaky-relu-0.01",
+        "teacher_learning_rate": 0.01,
+        "total_rounds": 1000000
+      },
+      "source_sha256": "3b3d9f45a6fd497d38a570eeb1a2d126c4d0f4a6a1ddd4d08781f662075fd532"
+    },
+    {
+      "after_checkpoint": 719,
+      "scientific_configuration": {
+        "agent_learning_rate": 0.01,
+        "bank_config_hash": "ea51d82dde6b3ab9039357c719c2167be6b92ec1bce8167084fbe8a393510e87",
+        "bank_id": "823bc6d1f7b239d779f2839ba3a78cdb7a6b36026c5a76eedda70cf1d19825e8",
+        "bank_kind": "selected",
+        "config_hash": "6bee6ce92e4d7060a4351090ab9ba701f9b74456a5d6c524492b4622f2ef9e49",
+        "dependency_revision": "9059a29f7121d60948f25ef165e08e050e9399c8",
+        "fork_parent": {
+          "config_hash": "d546a72ef59bd88f20efef0919f89022f9deb34afcfdba7300bc9c566097e116",
+          "manifest_hash": "2fbcdb33cc2e79f78e10b190d2a56eeecc2022c432fbf1e1c70e872fdd829dac",
+          "round_index": 719,
+          "run_id": "discovery-selected-rate10-20261003"
+        },
+        "lifetime_budgets": [
+          100000,
+          250000,
+          500000,
+          1000000
+        ],
+        "lifetime_sampling_weights": [
+          8,
+          4,
+          2,
+          1
+        ],
+        "milestone_rounds": [],
+        "population": 32,
+        "retained_recovery_checkpoints": 2,
+        "root_seed": "4ee0d5b42164c0c160e924bbf68a2fdf095f483a0d394c73bfd3389da68a1df8",
+        "run_id": "discovery-selected-rate005-20261004",
+        "schema_version": "gremlin-preview-discovery-science-v6",
+        "source_revision": "2cb2bfb22f3b32d8216bf1b03e5e2bfba7c1c0b2",
+        "teacher_action_activation": "action-input-leaky-relu-0.01",
+        "teacher_learning_rate": 0.005,
+        "total_rounds": 1000000
+      },
+      "source_sha256": "e5972f829da416b289a20aa5ef13052a8ad940819aea647c9e686c092472e6c0"
+    }
+  ]
+}

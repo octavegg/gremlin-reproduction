@@ -1,0 +1,3202 @@
+{
+  "acrobot-disco103-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-disco103-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-disco103-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-disco103-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-disco103-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-dqn-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-dqn-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-dqn-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-dqn-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-dqn-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-gremlin-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-gremlin-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-gremlin-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-gremlin-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-gremlin-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-initial-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-initial-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-initial-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-initial-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "acrobot-initial-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 500,
+      "name": "Acrobot-v1",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-disco103-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-disco103-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-disco103-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-disco103-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-disco103-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-dqn-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "breakout-dqn-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "breakout-dqn-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "breakout-dqn-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "breakout-dqn-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "breakout-gremlin-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-gremlin-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-gremlin-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-gremlin-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-gremlin-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-initial-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-initial-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-initial-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-initial-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "breakout-initial-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Breakout-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-disco103-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-disco103-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-disco103-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-disco103-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-disco103-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-dqn-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "invaders-dqn-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "invaders-dqn-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "invaders-dqn-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "invaders-dqn-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "invaders-gremlin-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-gremlin-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-gremlin-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-gremlin-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-gremlin-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-initial-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-initial-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-initial-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-initial-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "invaders-initial-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/SpaceInvaders-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "lander-disco103-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "lander-disco103-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "lander-disco103-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "lander-disco103-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "lander-disco103-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "lander-dqn-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "lander-dqn-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "lander-dqn-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "lander-dqn-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "lander-dqn-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "lander-gremlin-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "lander-gremlin-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "lander-gremlin-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "lander-gremlin-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "lander-gremlin-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "lander-initial-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "lander-initial-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "lander-initial-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "lander-initial-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "lander-initial-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 1000,
+      "name": "LunarLander-v3",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      25000,
+      100000,
+      250000,
+      500000,
+      1000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-disco103-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-disco103-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-disco103-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-disco103-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-disco103-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-dqn-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "qbert-dqn-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "qbert-dqn-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "qbert-dqn-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "qbert-dqn-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "qbert-gremlin-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-gremlin-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-gremlin-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-gremlin-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-gremlin-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-initial-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-initial-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-initial-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-initial-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "qbert-initial-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Qbert-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-disco103-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-disco103-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-disco103-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-disco103-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-disco103-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "disco103",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-dqn-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-dqn-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-dqn-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-dqn-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-dqn-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.0003,
+    "method": "dqn",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": null,
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-gremlin-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-gremlin-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-gremlin-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-gremlin-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-gremlin-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "gremlin1000",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-initial-0": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 0,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-initial-1": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 1,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-initial-2": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 2,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-initial-3": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 3,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  },
+  "seaquest-initial-4": {
+    "benchmark": {
+      "clip_reward": false,
+      "max_episode_steps": 27000,
+      "name": "ALE/Seaquest-v5",
+      "reward_scale": 1
+    },
+    "evaluation_episodes": 32,
+    "final_episodes": 100,
+    "learning_rate": 0.01,
+    "method": "initial-leaky",
+    "root_seed": "9999999999999999999999999999999999999999999999999999999999999999",
+    "schema": "gremlin-host-study-v1",
+    "seed": 4,
+    "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
+    "targets": [
+      0,
+      100000,
+      250000,
+      500000,
+      1000000,
+      2500000,
+      5000000
+    ],
+    "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
+    "truncation": "discard-incomplete"
+  }
+}
