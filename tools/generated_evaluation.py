@@ -23,7 +23,51 @@ sys.path.insert(0, str(ROOT/'src'))
 os.environ.setdefault('XLA_PYTHON_CLIENT_PREALLOCATE', 'false')
 
 
+def assessment_grid(steps,targets=None):
+    if targets is None:
+        return sorted({0,steps,*[x for x in (70000,142800,282800,540400,999600) if x<steps]})
+    if (not targets or targets!=sorted(set(targets)) or
+            any(type(x) is not int or x<0 for x in targets) or targets[-1]<=0):
+        raise ValueError('assessment targets must be sorted unique nonnegative integers')
+    last=2800+max(0,(targets[-1]-2800+5599)//5600)*5600
+    if last!=steps: raise ValueError('steps must be the first numerical boundary reaching the final assessment')
+    return sorted({0,*targets})
+
+
+class RollingCheckpoints:
+    """Retain only checkpoints created by this fresh output directory's writer."""
+    def __init__(self,directory,writer,keep=None):
+        if keep is not None and keep!=2: raise ValueError('rolling retention requires two states')
+        self.directory=Path(directory);self.writer=writer;self.keep=keep;self.created={}
+
+    def save(self,state,interactions):
+        if type(interactions) is not int or interactions<0: raise ValueError('invalid counter')
+        path=self.directory/f'state-{interactions:09d}.state'
+        self.writer(path,state)  # Atomic durable publication precedes any deletion.
+        self.created[interactions]=path
+        if self.keep is not None:
+            for counter in sorted(self.created)[:-self.keep]:
+                old=self.created[counter]
+                if old.is_symlink() or old.parent!=self.directory:raise ValueError('linked checkpoint')
+                old.unlink();del self.created[counter]
+            fd=os.open(self.directory,os.O_RDONLY)
+            try:os.fsync(fd)
+            finally:os.close(fd)
+        return path
+
+
+def remaining_assessments(grid,counter,points):
+    """Resume declared readouts, never invent an assessment at a periodic save."""
+    done={p['target'] for p in points if p['interactions']<=counter}
+    pending=[t for t in grid if t not in done]
+    for target in pending:
+        boundary=0 if target==0 else 2800+max(0,(target-2800+5599)//5600)*5600
+        if boundary<counter:raise ValueError('saved state has passed an unavailable readout')
+    return pending
+
+
 def main():
+    global ROOT
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('--reference-job', type=Path, required=True)
     p.add_argument('--bank', type=Path)
@@ -35,9 +79,25 @@ def main():
     p.add_argument('--planned-seconds', type=int, default=1200)
     p.add_argument('--output', type=Path, required=True)
     p.add_argument('--resume-from', type=Path)
+    p.add_argument('--resume-interactions',type=int,help='expected full-state counter, checked after decoding')
+    p.add_argument('--numerical-release',type=Path,help='verified original numerical release for an operational driver overlay')
+    p.add_argument('--assessment-targets',nargs='+',type=int,help='explicit nominal readouts; numerical blocks are unchanged')
+    p.add_argument('--checkpoint-seconds',type=float,help='operational periodic full-state save interval')
+    p.add_argument('--keep-checkpoints',type=int,choices=[2],help='keep two latest states in this fresh job output')
+    p.add_argument('--expires-unix',type=float,help='independent absolute worker expiry for this operational segment')
     p.add_argument('--teacher-action-activation', choices=['relu', 'action-input-leaky-relu-0.01'], default='relu')
     p.add_argument('--max-rss-gib', type=float, default=9)
     args = p.parse_args()
+    grid=assessment_grid(args.steps,args.assessment_targets)
+    if args.checkpoint_seconds is not None and not 0<args.checkpoint_seconds<float('inf'):
+        p.error('finite positive checkpoint interval required')
+    if args.checkpoint_seconds is not None and args.assessment_targets is None:
+        p.error('periodic saves require an explicit assessment grid')
+    if args.numerical_release is not None:
+        if args.numerical_release.is_symlink() or not (args.numerical_release/'release-manifest.json').is_file():
+            raise ValueError('an immutable numerical release is required')
+        ROOT=args.numerical_release.resolve(strict=True)
+        sys.path.insert(0,str(ROOT/'src'))
     if (args.bank is None) == (args.human_task is None):
         p.error('supply exactly one of --bank or --human-task')
     if args.learning_rate <= 0 or args.steps < 2800 or (args.steps-2800) % 5600:
@@ -49,8 +109,16 @@ def main():
     if args.rule != 'gremlin' and args.teacher_action_activation != 'relu':
         p.error('activation variants are restricted to the GREMLIN teacher')
     deadline = START + args.planned_seconds + 300
+    if args.expires_unix is not None:
+        if not time.time()<args.expires_unix<float('inf'):p.error('future finite absolute expiry required')
+        deadline=min(deadline,args.expires_unix)
+    soft_deadline=min(START+args.planned_seconds,deadline-300)
     signal.signal(signal.SIGALRM, signal.SIG_DFL)
     signal.setitimer(signal.ITIMER_REAL, max(.001, deadline-time.time()))
+    stopping=[False]
+    if args.checkpoint_seconds is not None:
+        for sig in (signal.SIGTERM,signal.SIGINT):
+            signal.signal(sig,lambda *_:stopping.__setitem__(0,True))
     args.output.mkdir(parents=True, exist_ok=False)
     if (ROOT/'release-manifest.json').is_file():
         from gremlin_rl.discovery.deployment import ReleaseManifest, verify_code_release
@@ -148,6 +216,8 @@ def main():
                 or parent.get('human_task') != args.human_task):
             raise ValueError('continuation changes scientific configuration')
         state=load_state_bundle(args.resume_from,state)
+        if args.resume_interactions is not None and int(state.interactions)!=args.resume_interactions:
+            raise ValueError('restored interaction counter differs')
         if int(state.interactions) > args.steps:
             raise ValueError('continuation endpoint precedes saved state')
     runtime = SimpleNamespace(agent=agent, environments=environments, rollout_from_timestep=types.ActorRollout.from_timestep)
@@ -187,6 +257,18 @@ def main():
         planned_seconds=args.planned_seconds, slack_seconds=300, started_unix=START, deadline_unix=deadline,
         max_interactions=args.steps, device=str(jax.devices()), points=[])
     metadata['parent_checkpoint_sha256']=None if args.resume_from is None else file_sha256(args.resume_from)
+    if args.numerical_release is not None or args.assessment_targets is not None:
+        metadata.update(execution_driver_sha256=file_sha256(Path(__file__)),assessment_targets=grid)
+    if args.checkpoint_seconds is not None:
+        metadata.update(checkpoint_seconds=args.checkpoint_seconds,keep_checkpoints=args.keep_checkpoints)
+        if args.resume_from is not None:
+            metadata['points']=[point for point in parent['points']
+                                if point['interactions']<=int(state.interactions)]
+    checkpoints=RollingCheckpoints(args.output,write_state_bundle,args.keep_checkpoints)
+    last_save=time.time()
+    def save():
+        nonlocal last_save
+        checkpoints.save(state,int(state.interactions));last_save=time.time()
     def persist():
         metadata['elapsed_seconds'] = time.time()-START
         tmp = args.output/'result.tmp'
@@ -196,18 +278,24 @@ def main():
             f.flush(); os.fsync(f.fileno())
         os.replace(tmp,args.output/'result.json')
     persist()
-    grid = sorted({0,args.steps,*[x for x in (70000,142800,282800,540400,999600) if x < args.steps]})
-    grid=sorted({int(state.interactions),*[x for x in grid if x>=int(state.interactions)]})
+    if args.checkpoint_seconds is not None:
+        save()
+        grid=remaining_assessments(grid,int(state.interactions),metadata['points'])
+    else:
+        grid=sorted({int(state.interactions),*[x for x in grid if x>=int(state.interactions)]})
     for target in grid:
         while int(state.interactions) < target:
-            if time.time() >= START+args.planned_seconds or resource.getrusage(resource.RUSAGE_SELF).ru_maxrss > args.max_rss_gib*1024**2:
+            if stopping[0] or time.time() >= soft_deadline or resource.getrusage(resource.RUSAGE_SELF).ru_maxrss > args.max_rss_gib*1024**2:
                 metadata['status']='time-or-memory-cap'
                 metadata['final_interactions']=int(state.interactions)
                 persist()
-                write_state_bundle(args.output/f'state-{int(state.interactions):09d}.state',state)
+                save()
                 return
             state = warmup_frozen_rule(state,runtime) if not int(state.interactions) else advance_frozen_rule(state,runtime,update)
+            if args.checkpoint_seconds is not None and time.time()-last_save>=args.checkpoint_seconds:save()
+        if args.checkpoint_seconds is not None:save()
         point = dict(interactions=int(state.interactions),updates=int(state.updates))
+        if args.assessment_targets is not None: point['target']=target
         for label, evaluate in [('sample',eval_sample),('greedy',eval_greedy)]:
             returns, entropy, maxprob, complete = evaluate(state.learner.params,key(f'/evaluation/{target}'))
             if not bool(complete) or not np.all(np.isfinite(np.asarray(returns))):
@@ -216,7 +304,7 @@ def main():
                               entropy_fraction=float(entropy),mean_max_probability=float(maxprob))
         metadata['points'].append(point)
         persist(); print(json.dumps(point),flush=True)
-        write_state_bundle(args.output/f'state-{int(state.interactions):09d}.state',state)
+        save()
     metadata['status']='complete'; persist()
 
 

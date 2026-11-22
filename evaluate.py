@@ -15,7 +15,7 @@ import time
 
 ROOT = Path(__file__).resolve().parent
 PIN = '9059a29f7121d60948f25ef165e08e050e9399c8'
-METHODS = ('initial', 'gremlin', 'disco103', 'dqn', 'double-dqn')
+METHODS = ('initial', 'gremlin', 'disco103', 'dqn')
 HUMAN = ('acrobot', 'lander', 'breakout', 'invaders', 'qbert', 'seaquest')
 TEACHERS = {'initial': '0.state', 'gremlin': '1000.state', 'disco103': 'disco_103.npz',
             'dqn': 'disco_103.npz', 'double-dqn': 'disco_103.npz'}
@@ -35,9 +35,36 @@ def human(job, teacher, output, seconds):
     stop = [False]
     signal.signal(signal.SIGINT, lambda *_: stop.__setitem__(0, True))
     signal.signal(signal.SIGTERM, lambda *_: stop.__setitem__(0, True))
-    result = run_host_job(job, output/'workspace', teacher,
-        time.monotonic()+seconds, save_guard=lambda _: nullcontext(),
-        resource_check=lambda: None, stopping=lambda: stop[0])
+    deadline=time.monotonic()+seconds
+    if 'evaluation_indices' not in job:
+        result = run_host_job(job, output/'workspace', teacher,
+            deadline, save_guard=lambda _: nullcontext(),
+            resource_check=lambda: None, stopping=lambda: stop[0])
+    else:
+        from gremlin_rl.experiments.host_learning import HostLearningRuntime
+        from gremlin_rl.experiments.calibration_workspace import CalibrationWorkspace,locked_workspace
+        from gremlin_rl.experiments.execution_deadline import BoundaryBudget
+        from tools.evaluation import run_extension
+        targets=job['targets'][1:]
+        if targets!=[500000,1000000,2000000,3000000,4000000]:
+            raise ValueError('unsupported evaluation grid')
+        with locked_workspace(output/'workspace'):
+            db=CalibrationWorkspace(output/'workspace',job,512*2**20)
+            runtime=None
+            try:
+                runtime=HostLearningRuntime(job,teacher)
+                previous=db.latest()
+                if previous:
+                    runtime.restore(previous[2])
+                    if runtime.counters()!=previous[:2]:raise ValueError('restored counters differ')
+                result=run_extension(runtime,db,targets,deadline=deadline,
+                    save_guard=lambda _:nullcontext(),resource_check=lambda:True,
+                    stopping=lambda:stop[0],budget=BoundaryBudget(deadline,estimated_block_seconds=120),
+                    execution_grid=True,evaluation_indices=job['evaluation_indices'])
+                result['points']=result.pop('raw_points')
+            finally:
+                db.close()
+                if runtime is not None:runtime.close()
     # The transactional workspace is authoritative; this is a convenience view.
     temporary = output/'result.tmp'
     with temporary.open('w') as stream:
@@ -51,7 +78,7 @@ def human(job, teacher, output, seconds):
 def generated(job, method, teacher, output, seconds, resume, runtime):
     import runpy
     bank = ROOT/'artifacts/bank/bank.json'
-    if method in ('dqn', 'double-dqn'):
+    if method == 'dqn':
         if resume:
             raise ValueError('DQN resumes in the same output directory, without --resume-from')
         from gremlin_rl.discovery.deployment import ReleaseManifest
@@ -67,18 +94,27 @@ def generated(job, method, teacher, output, seconds, resume, runtime):
                     '--teacher', str(teacher), '--workspace', str(output/'workspace')]
         runpy.run_path(str(runtime/'scripts/run_calibration.py'), run_name='__main__')
     else:
+        targets=job.get('evaluation_targets')
+        activation=job.get('teacher_action_activation',
+            'action-input-leaky-relu-0.01' if method == 'gremlin' else 'relu')
         sys.argv = ['audit_frozen_rule.py', '--bank', str(bank),
             '--teacher', str(teacher), '--rule', 'disco103' if method == 'disco103' else 'gremlin',
-            '--learning-rate', '0.01', '--steps', '282800', '--planned-seconds', str(seconds),
+            '--learning-rate', '0.01', '--steps', '4001200' if targets else '282800', '--planned-seconds', str(seconds),
             '--output', str(output), '--teacher-action-activation',
-            'action-input-leaky-relu-0.01' if method == 'gremlin' else 'relu', '--max-rss-gib', '9']
+            activation, '--max-rss-gib', '24' if targets else '9']
+        if targets:
+            if targets!=[0,500000,1000000,2000000,3000000,4000000]:raise ValueError('unsupported generated grid')
+            sys.argv+=['--numerical-release',str(runtime),'--assessment-targets',*map(str,targets),
+                       '--checkpoint-seconds','120','--keep-checkpoints','2']
         if resume:
             sys.argv += ['--resume-from', str(resume)]
         with tempfile.TemporaryDirectory(prefix='gremlin-reference-') as directory:
             reference = Path(directory)/'reference.json'
-            reference.write_text(json.dumps(dict(job=job)))
+            reference.write_text(json.dumps(dict(job={k:v for k,v in job.items()
+                if k not in ('evaluation_targets','teacher_action_activation')})))
             sys.argv += ['--reference-job', str(reference)]
-            runpy.run_path(str(runtime/'scripts/audit_frozen_rule.py'), run_name='__main__')
+            driver=ROOT/'tools/generated_evaluation.py' if targets else runtime/'scripts/audit_frozen_rule.py'
+            runpy.run_path(str(driver), run_name='__main__')
 
 
 def main():

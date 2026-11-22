@@ -7,6 +7,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -16,11 +23,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -33,6 +40,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -42,11 +56,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -59,6 +73,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -68,11 +89,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -85,6 +106,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -94,11 +122,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -111,6 +139,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -120,11 +155,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -137,6 +172,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -146,11 +188,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -163,6 +205,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -172,11 +221,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -189,6 +238,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -198,11 +254,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -215,6 +271,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -224,11 +287,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -241,6 +304,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -250,11 +320,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -267,6 +337,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -276,11 +353,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -293,6 +370,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -302,11 +386,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -319,6 +403,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -328,11 +419,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -345,6 +436,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -354,11 +452,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -371,6 +469,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -380,11 +485,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -397,6 +502,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -406,11 +518,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -423,6 +535,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -432,11 +551,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -449,6 +568,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -458,11 +584,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -475,6 +601,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -484,11 +617,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -501,6 +634,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -510,11 +650,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -527,6 +667,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -536,12 +683,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -554,6 +700,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -563,12 +716,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -581,6 +733,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -590,12 +749,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -608,6 +766,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -617,12 +782,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -635,6 +799,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -644,12 +815,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -662,6 +832,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -671,12 +848,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -689,6 +865,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -698,12 +881,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -716,6 +898,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -725,12 +914,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -743,6 +931,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -752,12 +947,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -770,6 +964,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -779,12 +980,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -797,6 +997,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -806,12 +1013,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -824,6 +1030,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -833,12 +1046,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -851,6 +1063,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -860,12 +1079,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -878,6 +1096,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -887,12 +1112,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -905,6 +1129,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -914,12 +1145,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -932,6 +1162,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -941,12 +1178,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -959,6 +1195,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -968,12 +1211,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -986,6 +1228,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -995,12 +1244,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1013,6 +1261,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -1022,12 +1277,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1040,6 +1294,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -1049,12 +1310,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1067,6 +1327,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1076,12 +1343,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1094,6 +1360,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1103,12 +1376,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1121,6 +1393,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1130,12 +1409,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1148,6 +1426,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1157,12 +1442,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1175,6 +1459,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1184,12 +1475,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1202,6 +1492,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1211,12 +1508,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1229,6 +1525,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1238,12 +1541,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1256,6 +1558,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1265,12 +1574,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1283,6 +1591,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1292,12 +1607,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1310,6 +1624,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1319,12 +1640,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1337,6 +1657,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1346,12 +1673,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1364,6 +1690,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1373,12 +1706,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1391,6 +1723,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1400,12 +1739,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1418,6 +1756,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1427,12 +1772,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1445,6 +1789,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1454,12 +1805,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1472,6 +1822,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -1481,12 +1838,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1499,6 +1855,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -1508,12 +1871,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1526,6 +1888,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -1535,12 +1904,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1553,6 +1921,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -1562,12 +1937,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1580,6 +1954,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -1589,12 +1970,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -1607,6 +1987,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1616,11 +2003,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1633,6 +2020,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1642,11 +2036,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1659,6 +2053,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1668,11 +2069,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1685,6 +2086,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1694,11 +2102,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1711,6 +2119,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -1720,11 +2135,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -1737,6 +2152,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1746,11 +2168,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1763,6 +2185,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1772,11 +2201,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1789,6 +2218,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1798,11 +2234,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1815,6 +2251,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1824,11 +2267,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1841,6 +2284,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -1850,11 +2300,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -1867,6 +2317,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1876,11 +2333,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1893,6 +2350,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 9,
+      "3000000": 13,
+      "4000000": 17,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1902,11 +2366,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1919,6 +2383,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1928,11 +2399,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1945,6 +2416,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1954,11 +2432,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1971,6 +2449,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -1980,11 +2465,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -1997,6 +2482,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2006,11 +2498,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2023,6 +2515,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2032,11 +2531,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2049,6 +2548,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2058,11 +2564,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2075,6 +2581,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2084,11 +2597,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2101,6 +2614,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 5,
+      "2000000": 6,
+      "3000000": 7,
+      "4000000": 8,
+      "500000": 4
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2110,11 +2630,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      25000,
-      100000,
-      250000,
       500000,
-      1000000
+      1000000,
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2127,6 +2647,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2136,12 +2663,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2154,6 +2680,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2163,12 +2696,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2181,6 +2713,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2190,12 +2729,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2208,6 +2746,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2217,12 +2762,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2235,6 +2779,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2244,12 +2795,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2262,6 +2812,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2271,12 +2828,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2289,6 +2845,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2298,12 +2861,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2316,6 +2878,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2325,12 +2894,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2343,6 +2911,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2352,12 +2927,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2370,6 +2944,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2379,12 +2960,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2397,6 +2977,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -2406,12 +2993,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -2424,6 +3010,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -2433,12 +3026,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -2451,6 +3043,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -2460,12 +3059,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -2478,6 +3076,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -2487,12 +3092,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -2505,6 +3109,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -2514,12 +3125,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -2532,6 +3142,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2541,12 +3158,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2559,6 +3175,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2568,12 +3191,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2586,6 +3208,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2595,12 +3224,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2613,6 +3241,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2622,12 +3257,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2640,6 +3274,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -2649,12 +3290,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -2667,6 +3307,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2676,12 +3323,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2694,6 +3340,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2703,12 +3356,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2721,6 +3373,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2730,12 +3389,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2748,6 +3406,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2757,12 +3422,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2775,6 +3439,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "disco103",
@@ -2784,12 +3455,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "dac840a15b81e8805326363458c33979626172618f620d9e6e170315388530aa",
     "truncation": "discard-incomplete"
@@ -2802,6 +3472,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2811,12 +3488,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2829,6 +3505,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2838,12 +3521,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2856,6 +3538,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2865,12 +3554,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2883,6 +3571,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2892,12 +3587,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2910,6 +3604,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.0003,
     "method": "dqn",
@@ -2919,12 +3620,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": null,
     "truncation": "discard-incomplete"
@@ -2937,6 +3637,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -2946,12 +3653,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -2964,6 +3670,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -2973,12 +3686,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -2991,6 +3703,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -3000,12 +3719,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -3018,6 +3736,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -3027,12 +3752,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -3045,6 +3769,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "gremlin1000",
@@ -3054,12 +3785,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "26463a8597c28e2e0f9e8721f39899ad1b8d0c59a04162db0cae8f80c25b4b53",
     "truncation": "discard-incomplete"
@@ -3072,6 +3802,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -3081,12 +3818,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -3099,6 +3835,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -3108,12 +3851,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -3126,6 +3868,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -3135,12 +3884,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -3153,6 +3901,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -3162,12 +3917,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"
@@ -3180,6 +3934,13 @@
       "reward_scale": 1
     },
     "evaluation_episodes": 32,
+    "evaluation_indices": {
+      "1000000": 4,
+      "2000000": 7,
+      "3000000": 8,
+      "4000000": 9,
+      "500000": 3
+    },
     "final_episodes": 100,
     "learning_rate": 0.01,
     "method": "initial-leaky",
@@ -3189,12 +3950,11 @@
     "source": "2e3d3585280c9ccd31d28896bff39d004327fc35",
     "targets": [
       0,
-      100000,
-      250000,
       500000,
       1000000,
-      2500000,
-      5000000
+      2000000,
+      3000000,
+      4000000
     ],
     "teacher_sha256": "e7a51d0f7bc8f7a9fb2ecc6dcef0a1e80e3331ee658b3bcf8118abb57c96aaa7",
     "truncation": "discard-incomplete"

@@ -1,11 +1,6 @@
 {
   "files": [
     {
-      "byte_length": 13417,
-      "relative_path": "scripts/audit_frozen_rule.py",
-      "sha256": "47415c1324a9da9cdb156148db382426ab16a86d6e2d5d239099cce2fc830d80"
-    },
-    {
       "byte_length": 5754,
       "relative_path": "scripts/run_calibration.py",
       "sha256": "2d070be86cdc2e8613551818092bf868daea4a0df1f03e7146ec8b1066f08846"

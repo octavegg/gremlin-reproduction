@@ -25,10 +25,14 @@ python -m venv .venv
 ```
 
 Open `results/generated-groups.svg`, `results/human-endpoints.svg` and
-`results/scores.csv`. Expected records: 160 generated-task learners, 120
-human-task learners and 32 fixed-anchor assessments. Figures show final return;
-the CSV also retains curve averages and Double DQN. Normalization is per game:
-initial-teacher mean = 0, DQN mean = 1, not optimal performance.
+`results/scores.csv`. Expected records: 128 generated-task learners, 120
+human-task learners and 32 fixed-anchor assessments. Figures show the 4M
+assessments, with crosses marking the means at 500k; the CSV retains each
+agent's final score. The generated plot sets the mean of uniform-random actions
+to 0 and the 4M DQN mean to 1 separately per game at both readouts. The human
+plot shows raw scores on independent axes; the band is ±2 standard errors of
+the random mean (1,024 episodes per game). Initial is a separate trained agent
+series in both plots.
 The anchor's two seed labels refer to assessment episodes, not trained policies.
 
 ## Evaluate a teacher
@@ -52,12 +56,13 @@ python3.12 -m venv .venv-rl
 
 | Panel | Tasks | Agent seeds | Interaction budget per agent |
 | --- | --- | --- | --- |
-| `generated` | `0` through `15` | 0–1 | 282,800 |
-| `human` | `acrobot`, `lander` | 0–4 | 1 million |
-| `human` | `breakout`, `invaders`, `qbert`, `seaquest` | 0–4 | 5 million |
+| `generated` | `0` through `15` | 0–1 | 4 million |
+| `human` | `acrobot`, `lander`, `breakout`, `invaders`, `qbert`, `seaquest` | 0–4 | 4 million |
 
-Methods: `initial`, `gremlin`, `disco103`, `dqn`; generated tasks also accept
-`double-dqn`. The time cap does not change the interaction budget. Use a distinct
+Methods: `initial`, `gremlin`, `disco103`, `dqn`. The initial teacher uses the
+same leaky activation as GREMLIN. Assessments use the first complete learning block at
+or above each requested budget; actual interaction counts are recorded.
+The time cap does not change the interaction budget. Use a distinct
 output folder for each agent; GPU allocation is manual. No SSH setup is needed.
 Atari ROMs are not included; benchmark assets retain their applicable terms.
 
@@ -131,23 +136,19 @@ deleted. This command neither launches SSH workers nor manages GPU allocation.
 | `artifacts/` | Sixteen saved games and the initial, trained and Disco103 teacher weights |
 | `runtime/` | Frozen numerical code for generated evaluation, human evaluation and discovery |
 | `requirements/` | Separate lightweight plotting and GPU-learning dependencies |
-| `tools/` | Checksum verifier and internal runtime loader |
+| `tools/` | Checksum verifier, runtime loader and evaluation execution adapters |
 | `licenses/` | Content license and preserved third-party notices |
 
 The JSON files are read automatically; there is nothing to fill in or edit.
 The three runtime folders preserve the code used for each experiment. Their
 historical differences are intentional; they are not three user-facing setups.
 `runtime/human/` and `runtime/discovery/` contain their modules directly.
-The generated-evaluation snapshot keeps its original layout because its two
-unchanged drivers verify and use those paths.
-The two scripts in `runtime/generated/scripts/` are called by `evaluate.py`:
-`audit_frozen_rule.py` runs learned-rule agents and `run_calibration.py` runs
-DQN/Double DQN. Despite their historical names, they are evaluation drivers,
-not optional diagnostic scripts.
-
-**Historical controls.** The original
-generated initial control uses hard ReLU; the human initial control matches
-the trained teacher's leaky activation. These controls must not be interchanged.
+The generated-evaluation snapshot keeps its original layout because its
+unchanged DQN driver verifies and uses those paths.
+The generated DQN driver remains in `runtime/generated/scripts/`. The small
+adapters under `tools/` supply the assessment grid and checkpoint/resume behavior
+without changing the frozen numerical kernels. They are called automatically;
+there is no separate user setup for each runtime.
 
 **Licenses.** Original code and reproduction materials: [MIT](LICENSE).
 Original article and figures: [CC BY 4.0](licenses/LICENSE-CONTENT.md).
